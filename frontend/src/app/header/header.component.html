@@ -1,0 +1,19 @@
+<div *ngIf="isLogin">
+  <p><strong>You are logged in as {{roleAs}}</strong></p>
+  <button (click)="logout()">log out</button>
+</div>
+
+<div *ngIf="!isLogin">
+  <p><strong>You are not logged in</strong></p>
+  <button (click)="loginAsUser()">Login as User</button>
+  <button (click)="loginAsAdmin()">Login as Admin</button>
+</div>
+
+<div class="menu">
+  <ul>
+    <li><a href="/home">home</a></li>
+    <li *ngxPermissionsOnly="['ROLE_USER']"><a href="/user">user</a></li>
+    <li *ngxPermissionsOnly="['ROLE_ADMIN']"><a href="/admin">admin</a></li>
+    <li *ngxPermissionsOnly="['ROLE_ADMIN', 'ROLE_USER']"><a href="/user-and-admin">user & admin</a></li>
+  </ul>
+</div>

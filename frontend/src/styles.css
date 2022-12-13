@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container>div {
+  width: 90vw;
+  text-align: center;
+}
+
+.container>.big-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container>div>div {
+  width: 80%;
+  border: 1px gray solid;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.container>.big-image>div {
+  margin: 1em;
+  width: 50%;
+}
+
+.container>div>div>img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container>div {
+    width: 70vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container>div {
+    width: 60vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container>div {
+    width: 40vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
