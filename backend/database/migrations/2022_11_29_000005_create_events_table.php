@@ -20,7 +20,7 @@ class CreateEventsTable extends Migration
             $table->string('lugar');
             $table->string('fecha');
             $table->string('horario');
-            $table->string('imagen')->nullable();
+            $table->binary('imagen')->nullable();
             $table->unsignedBigInteger('director_id');
             $table->foreign('director_id')->references('id')->on('directors')->onDelete('cascade');
             $table->timestamps();

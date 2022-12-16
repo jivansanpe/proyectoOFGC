@@ -1,40 +1,27 @@
-# Angular Example using Guards and Permissions with Roles
+# Frontend
 
-Very simple Example of Angular project using Guards and Permissions (ngx-permissions) with Roles.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
-## Getting Started
+## Development server
 
-After cloning this project don't forget to:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-```
-npm install
-```
+## Code scaffolding
 
-After that:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```
-cd bicycles
-ng serve
-```
+## Build
 
-Enjoy!!!
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-### Prerequisites
+## Running unit tests
 
-You need a working environment with:
-* [Git](https://git-scm.com) - You can install it from https://git-scm.com/downloads.
-* [Node.js](https://nodejs.org) - Install node.js from https://nodejs.org/es/download/. It's advisable to install the LTS version.
-* [Angular](https://angular.io/) - Getting started with Angular
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Built With
+## Running end-to-end tests
 
-* [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
-* [Node.js](https://nodejs.org/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [Angular](https://angular.io/) - Getting started with Angular
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Acknowledgments
+## Further help
 
-* https://github.com/coderkan/ng-guard-sample. how to implement role-based access control using Angular.
-* https://github.com/AlexKhymenko/ngx-permissions. Permission and roles based access control for your angular(angular 2,4,5,6,7,8+) applications.
-* https://javascript.plainenglish.io/how-to-add-route-guard-for-angular-applications-309f3b0ca845. How to Add Route Guard for Angular Applications
-* https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

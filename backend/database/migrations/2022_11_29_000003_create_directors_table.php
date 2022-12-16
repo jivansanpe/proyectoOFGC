@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('directors', function (Blueprint $table) {
             $table->id('id');
             $table->string('apodo');
-            $table->string('imagen')->nullable();
+            $table->binary('imagen')->nullable();
             $table->timestamps();
         });
     }

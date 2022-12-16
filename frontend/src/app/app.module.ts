@@ -1,30 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { UserComponent } from './user/user.component';
-import { AdminComponent } from './admin/admin.component';
-import { UserAndAdminComponent } from './user-and-admin/user-and-admin.component';
-import { NgxPermissionsModule } from 'ngx-permissions';
-import { HeaderComponent } from './header/header.component';
-import { HttpClientModule } from '@angular/common/http';
+
+import { EventModule } from './event/event.module';
+import { DirectorModule } from './director/director.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    UserComponent,
-    AdminComponent,
-    UserAndAdminComponent,
-    HeaderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    EventModule,
+    DirectorModule,
     HttpClientModule,
-    NgxPermissionsModule.forRoot()
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
