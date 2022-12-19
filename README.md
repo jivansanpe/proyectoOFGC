@@ -47,7 +47,7 @@ La OFGC (Orquesta Filarmónica de Gran Canaria) tiene a nuestra disposición un 
 	
 		php artisan migrate
 		
-# Guía de instalación.
+# Requisitos de instalación.
 
 - Requisitos:
 	- Visual Studio Code (Se recomienda la extensión oficial de Ionic).
