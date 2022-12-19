@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-principal',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  option() {
+    if (confirm('¿Quieres crear un nuevo evento?')) {
+      this.router.navigate(['/principal/create']);
+    }
   }
 
 }

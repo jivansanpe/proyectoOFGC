@@ -6,7 +6,7 @@
 
   <div id="container">
     <h1><strong>INICIAR SESIÓN</strong></h1>
-    <form action="/login" method="POST">
+    <form action="http://localhost:8000/api/login/" method="POST">
       <label for="email">Correo:</label><br>
       <input type="email" id="email" name="email" autocomplete="email" placeholder="Ingrese su correo electrónico."
         required><br>
@@ -20,7 +20,7 @@
         número, una
         letra mayúscula y una letra minúscula.</div>
       <br>
-      <button type="submit" id="submit-button">Enviar</button>
+      <button type="submit" id="submit-button" routerLink="/principal">Enviar</button>
       <button class="boton-crear-cuenta" routerLink="/register">Crear cuenta</button>
     </form>
     <ion-img class="bg_1" src="assets/img/login/bg_1.png" alt="Fondo."></ion-img>

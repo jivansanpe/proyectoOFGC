@@ -1,3 +1,12 @@
-<p>
-  index works!
-</p>
+<section>
+  <br>
+
+  <ion-grid [fixed]="true">
+    <ion-row *ngFor="let event of events">
+      <ion-col>{{ event.tipo }}</ion-col>
+      <ion-col>{{ event.lugar }}</ion-col>
+      <ion-col>{{ event.fecha }}</ion-col>
+    </ion-row>
+  </ion-grid>
+
+</section>

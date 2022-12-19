@@ -1,0 +1,91 @@
+#container {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.bg_1 {
+    background-color: aquamarine;
+    background-size: cover;
+    width: 100%;
+    object-fit: fill;
+}
+
+.btn-logout {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.icon-arrow-contact {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.texto-central {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    color: black;
+}
+
+.usuario-grande-plus {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+
+.ln111 {
+    position: absolute;
+    top: 710px;
+    right: 20px;
+    width: 90%;
+}
+
+.ln112 {
+    position: absolute;
+    top: 320px;
+    right: 20px;
+    width: 90%;
+}
+
+input.input1 {
+    position: absolute;
+    color: black;
+    background-color: rgb(225, 255, 240);
+    top: 350px;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: top;
+}
+
+textarea {
+    position: absolute;
+    color: black;
+    background-color: rgb(225, 255, 240);
+    top: 420px;
+    width: 300px;
+    height: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: top;
+}
+
+.enviar {
+    position: absolute;
+    top: 720px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
