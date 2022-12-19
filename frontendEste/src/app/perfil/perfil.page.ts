@@ -15,7 +15,7 @@ export class PerfilPage implements OnInit {
 
   logOut() {
     if (confirm('¿Está seguro de que desea cerrar sesión?')) {
-      this.router.navigate(['/login']);
+      this.router.navigate(['/log-out']);
     }
   }
 

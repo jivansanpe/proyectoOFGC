@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'log-out',
     loadChildren: () => import('./log-out/log-out.module').then( m => m.LogOutPageModule)
   },
+  {
+    path: 'secundaria',
+    loadChildren: () => import('./secundaria/secundaria.module').then( m => m.SecundariaPageModule)
+  },
 ];
 
 @NgModule({
