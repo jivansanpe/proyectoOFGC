@@ -153,6 +153,7 @@ https://documenter.getpostman.com/view/23479374/2s8YzZPe48
 Entorno de uso:
 
 1. Mi aplicación está confeccionada para visualizarla en un móvil. Se verá ensanchada en un ordenador.
+2. No se recomienda usar el comando ionic serve -l porque da errores por defecto en algunos componentes.
 
 Métodos de acceso:
 
@@ -163,14 +164,20 @@ Métodos de acceso:
 Restricciones:
 
 1. Para modificar la información de los eventos el usuario debe ser administrador.
+2. El login atiende a las siguientes validaciones:
+	- El correo debe llevar un "@".
+	- La contraseña no puede ser corta y tiene que tener al menos un número, letra mayúscula y letra minúscula (Las validaciones están desactivadas en estos momentos porque tuvo un percance con el proyecto y el login no puede conectarse al backend correctamente, pero si se elimina una línea que te lleva al menú principal, se vuelven a activar).
+	- En el registro existen las mismas validaciones.
 
-Interfaces:
+Interfaces y componentes:
 
 1. Login.
 2. Registro.
 3. Pantalla principal de los eventos.
 4. Perfil.
 5. Contacto.
+6. No hay que olvidarse de que se puede deslizar en la parte derecha para ver el menú, aunque esto es un componente.
+7. Otro componente importante es el que permite visualizar la tabla en el menú principal al ser llamado.
 	
 # Idea final.
 
