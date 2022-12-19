@@ -142,6 +142,32 @@ Vamos a dividir este apartado en varios puntos.
 	- Backend: Laravel 9 (con el ORM Eloquent perfectamente implementado).
 	- Frontend: Ionic (con Angular en su última versión).
 	
+# Comparativa entre dos tecnologías similares del backend y del frontend.
+
+En el frontend compararé Ionic y Angular "puro". Mi elección proviene de haber usado ambas tecnologías en este curso. Además, pese a haber usado Ionic basado en Angular en este proyecto, he pecado de usar algunos elementos propios de Angular "crudo" por estar más familiarizados con ellos. Por ejemplo, el componente de index lo cree basándome en Angular y luego lo adapté a la estructura de Ionic. Sin más preámbulos, esta es mi disertación sobre ambas tecnologías:
+
+1. Ionic es un framework de desarrollo de aplicaciones móviles basado en HTML, CSS y JavaScript, mientras que Angular es un framework de desarrollo web basado en TypeScript. Ambas herramientas están diseñadas para facilitar el desarrollo de aplicaciones y proporcionar una estructura sólida y un conjunto de herramientas para mejorar la productividad del desarrollador.
+
+2. Una de las principales diferencias entre Ionic y Angular es el enfoque. Ionic está diseñado específicamente para el desarrollo de aplicaciones móviles y proporciona un conjunto de componentes y herramientas que facilitan la creación de aplicaciones móviles nativas y híbridas. Angular, por otro lado, es un framework de desarrollo web general y se puede utilizar para crear aplicaciones web, aplicaciones móviles híbridas y aplicaciones de escritorio con Electron.
+
+3. Otra diferencia importante es la forma en que ambos frameworks manejan la interfaz de usuario. Ionic utiliza componentes de interfaz de usuario basados en HTML y CSS para crear la interfaz de usuario de la aplicación, mientras que Angular utiliza su propio lenguaje de plantillas basado en HTML y su propio conjunto de componentes de interfaz de usuario. Esto significa que Angular puede proporcionar un mayor control sobre la interfaz de usuario y una mejor integración con la lógica de negocio de la aplicación, mientras que Ionic es más fácil de aprender y utilizar para aquellos familiarizados con el desarrollo web tradicional.
+
+4. En términos de rendimiento, Angular y Ionic son muy similares. Ambas herramientas utilizan tecnologías avanzadas para optimizar el rendimiento de la aplicación y proporcionar una experiencia fluida para el usuario final. Sin embargo, Angular puede proporcionar un rendimiento ligeramente mejor en aplicaciones más grandes y complejas debido a su enfoque en la optimización de rendimiento y su mayor control sobre la interfaz de usuario.
+
+En resumen, Ionic es una buena opción para aquellos que buscan una herramienta fácil de usar y rápida para el desarrollo de aplicaciones móviles híbridas y nativas, mientras que Angular es una opción más robusta y completa para aquellos que buscan un framework de desarrollo web más general y con mayor control sobre la interfaz de usuario.
+
+Ahora os compararé Laravel y Django en el backend:
+
+1. Laravel y Django son dos frameworks de desarrollo web populares que se utilizan para la creación de aplicaciones web. Ambas herramientas ofrecen una amplia gama de funcionalidades y herramientas que facilitan el desarrollo y la creación de aplicaciones web de alta calidad. Sin embargo, existen algunas diferencias clave entre ambos frameworks.
+
+2. Uno de los principales diferencias entre Laravel y Django es el lenguaje de programación que utilizan. Laravel está escrito en PHP y se ejecuta en el lado del servidor, mientras que Django está escrito en Python y también se ejecuta en el lado del servidor. Esto significa que los desarrolladores deben tener conocimientos de PHP o Python para trabajar con Laravel o Django, respectivamente.
+
+3. Otra diferencia importante es la forma en que ambos frameworks manejan la base de datos. Laravel utiliza Eloquent, una capa de abstracción de bases de datos que permite a los desarrolladores interactuar con la base de datos de manera sencilla y natural. Django, por otro lado, utiliza ORM (Mapeo de objetos de relación), que permite a los desarrolladores interactuar con la base de datos a través de objetos en lugar de escribir consultas SQL manualmente.
+
+4. En términos de rendimiento, Laravel y Django son muy similares. Ambas herramientas proporcionan un rendimiento sólido y estable para la mayoría de las aplicaciones web. Sin embargo, Django puede tener un ligero rendimiento mejor en aplicaciones más grandes y complejas debido a su enfoque en la optimización de rendimiento y su soporte integrado para el cacheo de la base de datos y el cacheo de la vista.
+
+En resumen, Laravel es una buena opción para aquellos que buscan un framework de desarrollo web potente y fácil de usar basado en PHP, mientras que Django es una opción más robusta y completa para aquellos que buscan un framework de desarrollo web basado en Python con un enfoque en la escalabilidad y la optimización de rendimiento.
+	
 # Plan de trabajo.
 
 	AED: https://trello.com/b/ZwVcICX0/aed
