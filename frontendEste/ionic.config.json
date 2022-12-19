@@ -1,0 +1,7 @@
+{
+  "name": "frontendEste",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

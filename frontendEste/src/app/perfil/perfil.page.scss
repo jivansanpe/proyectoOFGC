@@ -1,0 +1,166 @@
+#container {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.bg_1 {
+    background-color: aquamarine;
+    background-size: cover;
+    width: 100%;
+    object-fit: fill;
+}
+
+.btn-logout {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.icon-arrow {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.texto-central {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    color: black;
+}
+
+.usuario-grande-plus {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+
+.separador-privacidad {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+}
+
+.separador-privacidad {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+}
+
+.btn-cambiar-nombre-usuario {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    right: 0;
+}
+
+.btn-cambiar-contraseña {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 395px;
+    left: 0;
+    right: 0;
+}
+
+.separador-personalización {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 470px;
+    left: 0;
+    right: 0;
+}
+
+.activar-modo-oscuro {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 505px;
+    right: 180px;
+}
+
+.idioma-de-la-aplicación {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 535px;
+    right: 160px;
+}
+
+.notificaciones {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 565px;
+    right: 227px;
+}
+
+.cambiar-pieza-de-música {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 595px;
+    right: 150px;
+}
+
+.circulito {
+    position: absolute;
+    top: 505px;
+    right: 35px;
+}
+
+.bandera-española {
+    position: absolute;
+    top: 535px;
+    right: 33px;
+}
+
+.Vector {
+    position: absolute;
+    top: 565px;
+    right: 33px;
+}
+
+.btn-playlist {
+    position: absolute;
+    top: 595px;
+    right: 33px;
+}
+
+.separador-acerca_de {
+    position: absolute;
+    top: 630px;
+    right: 33px;
+}
+
+.btn_contacto {
+    position: absolute;
+    top: 650px;
+    right: 33px;
+}
+
+.ln111 {
+    position: absolute;
+    top: 710px;
+    right: 33px;
+}
+
+

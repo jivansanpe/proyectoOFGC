@@ -1,0 +1,58 @@
+<ion-header>
+</ion-header>
+<ion-content>
+  <div id="container">
+    <h1><strong>CREAR CUENTA</strong></h1>
+    <form>
+      <label for="username">Nombre de usuario:</label><br>
+      <input type="text" id="username" name="username" pattern="[A-Za-z0-9]{4,}"
+        title="Debe tener al menos 4 caracteres y solo puede contener letras y números" placeholder="Ingrese su nombre de usuario." required><br>
+      <label for="email">Correo:</label><br>
+      <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico." required><br>
+      <label for="password">Contraseña:</label><br>
+      <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Debe tener al menos 8 caracteres y contener al menos un número, una letra mayúscula y una letra minúscula" placeholder="Ingrese su contraseña."
+        required><br>
+      <label for="password-confirm">Confirmar contraseña:</label><br>
+      <input type="password" id="password-confirm" name="password-confirm" placeholder="Confirme su contraseña." required><br><br>
+      <button type="submit">Enviar</button>
+      <button class="boton-iniciar-sesión" routerLink="/login">Iniciar sesión</button>
+    </form>
+    <ion-img class="bg_1" src="assets/img/login/bg_1.png" alt="Fondo en register."></ion-img>
+    <ion-img class="logo_login" src="assets/img/login/logo_login.png" alt="Logo en register."></ion-img>
+    <ion-img class="violin_fondo" src="assets/img/login/violin_fondo.png" alt="Violín de fondo en register."></ion-img>
+  </div>
+</ion-content>
+
+<script>
+  const form = document.querySelector('form');
+  form.addEventListener('submit', (event) => {
+
+    // Evitar el envío del formulario
+    event.preventDefault();
+
+    // Obtener valores de los campos de entrada
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const passwordConfirm = document.getElementById('password-confirm').value;
+
+    // Validar campos de entrada
+    if (username === '') {
+      // Mostrar mensaje de error para el campo de nombre de usuario
+      alert('El nombre de usuario es obligatorio');
+    } else if (email === '') {
+      // Mostrar mensaje de error para el campo de correo
+      alert('El correo es obligatorio');
+    } else if (password === '') {
+      // Mostrar mensaje de error para el campo de contraseña
+      alert('La contraseña es obligatoria');
+    } else if (password !== passwordConfirm) {
+      // Mostrar mensaje de error si las contraseñas no coinciden
+      alert('Las contraseñas no coinciden');
+    } else {
+      // Enviar formulario
+      form.submit();
+    }
+  });
+</script>

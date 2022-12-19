@@ -1,0 +1,166 @@
+#container {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.bg_1 {
+    background-size: cover;
+    width: 100%;
+    object-fit: fill;
+}
+
+.logo_login {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 2;
+}
+
+.cartel_login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    line-height: 1.5;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+ion-img {
+    z-index: 1;
+}
+
+h1 {
+    color: black;
+    position: absolute;
+    z-index: 2;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 200px;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+form {
+    z-index: 2;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 300px;
+    line-height: 1.5;
+}
+
+input[type="email"],
+input[type="password"] {
+    z-index: 2;
+    color: black;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background: none;
+    box-sizing: border-box;
+}
+
+input[type="email"]:valid:not(:focus),
+input[type="password"]:valid:not(:focus) {
+    border: 1px solid green;
+}
+
+input[type="email"]:not(:placeholder-shown):required:invalid:not(:focus),
+input[type="password"]:not(:placeholder-shown):required:invalid:not(:focus) {
+    border: 1px solid red;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: 2px solid #000000;
+}
+
+
+label {
+    color: black;
+}
+
+button[type="submit"] {
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4caf50;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    background: none;
+    border: 2px solid #4caf50;
+}
+
+.boton-crear-cuenta {
+    z-index: 2;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.violin_fondo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.error-message.hidden {
+    display: none;
+}
+
+input[type="email"]:invalid+.error-message,
+input[type="password"]:invalid+.error-message {
+    display: flex;
+}
+
+
+
+@media (max-width: 300px) {
+
+    h1 {
+        min-width: 100px;
+        left: 51%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 200px) {
+
+    .logo_login {
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 107px) {
+
+    * {
+        visibility: hidden;
+    }
+}

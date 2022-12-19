@@ -1,0 +1,45 @@
+#container {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.bg_1 {
+    background-size: cover;
+    width: 100%;
+    object-fit: fill;
+}
+
+.logo_pequeño {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 54px;
+    height: 15.57;
+}
+
+.icon_perfil {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 36px;
+}
+
+.encabezado {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    left: 0px;
+    width: 329px;
+    width: 90%;
+    height: 21;
+    margin: 0 auto;
+}
+
+.indexito {
+    position: absolute;
+    top: 100px;
+    color: black;
+}
