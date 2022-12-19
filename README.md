@@ -121,16 +121,21 @@ Si se quiere importar manualmente la BBDD, he dejado el archivo del script en un
 
 https://www.figma.com/file/OJrWtxJKa0ffdyPAAYJAF0/Untitled?t=ISRTa8GFNUw6HkGU-0
 
-# Usabilidad y accesibilidad.
+# Paleta.
 
 He usado los colores de la web de la OFGC, que son el azul turquesa, marrón y el blanco como tonalidades predominantes.
 
-	- La aplicación es sencilla. Es una agenda básica donde se insertan, editan y eliminan eventos.
-	- Esta hecha para verse en móvil. He intentado que no de mucho miedo en versión ordenador, pero debería verse en tamaño móvil.
-	- Se puede navegar tanto con los botones del móvil como con la barra de navegación lateral o los botones de la aplicación.
-	- El diseño es minimalista, pero con buen gusto (aunque esté mal que lo diga yo).
-	- Los colores son fáciles de distinguir.
-	- La fuente y su tamaño son los adecuados para no forzar la vista.
+# Usabilidad y accesibilidad.
+
+Vamos a dividir este apartado en varios puntos.
+
+	- La aplicación es fácil de entender: Es una simple agenda en la que se pueden agregar, modificar, eliminar y consultar eventos. Está planteada para que se pueda acceder desde un simple login donde hay que indicar el correo y la contraseña. Ambos campos tienen validaciones. Respecto al correo, basta con que tenga un "@". La contraseña tiene que contener como mínimo una letra minúscula, una letra mayúscula y algún dígito, esto se hace para evitar que se usan contraseñas débiles. Cabe recordar que la contraseña es encriptada en base 64 al llegar al backend. 
+	- Las opciones sensibles de ser pulsadas por error cuentan con un mensaje de confirmación. De momento, ese mensaje es una ventanita que se te abre en Windows. Si se le da a cancelar será como si nada hubiera pasado y si se acepta se reciba una pequeña animación a modo de feedback para que el usuario entienda que la acción ha sido efectuada con éxito. Por ejemplo, al pulsar en el botón de "cerrar sesión" se depliega una animación con un tick verde.
+	- La navegación es a gusto del usuario. Se puede navegar a través de un stacknavigation (los botones clásicos "volver" y las flechitas hacia atrás), un sidemenu (en la pantalla principal hay que deslizar el dedo por la pantalla para desplegar un simple menú con varias rutas) y los botones del tab bar clásicos de cualquier móvil.
+	- Los campos a rellenar tienen un placeholder, o en su defecto un cartel, que indica claramento que tipo de dato hay que introducir. Es difícil que un usuario se pueda confundir, y de ser así, las validaciones y sus respectivos mensajes harán su trabajo.
+	- Los iconos son representativos de la función a desarrollar. Por ejemplo el icono del perfil es inconfundible y una vez dentro, la organización en limpia y ordenada con más iconos representativos y texto de acompañamiento.
+	- A nivel de código, es importante recalcar que se usan "alt" (texto informativo opcional de cada elemento) para añadir más claridad al código y hacer más sencillo su escalado.
+	- El tamaño de la letra y los colores son agradables a la vista y dan una buena sensación de empaque al proyecto. 
 	
 # Pila tecnológica.
 
