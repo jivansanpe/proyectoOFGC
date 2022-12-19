@@ -1,32 +1,23 @@
-# OFGC APP
-
 # Introducción
 
 La OFGC (Orquesta Filarmónica de Gran Canaria) tiene a nuestra disposición un amplio abanico de proyectos que se renueva cada mes. Para estar al día con cada uno de estos habría que acudir a su página web oficial. Mi aplicación es una agenda para facilitar el seguimiento de dichas actuaciones en un terminal móvil. El interesado tendrá acceso a la misma lista de eventos que se encuentra en la web y como añadido podrá guardar sus eventos favoritos en una lista dentro de la aplicación, cumpliendo así el proyecto que se me ha encomendado de parte de mi tutor asignado.
 
 # Para iniciarlo.
-		
-1. Para ejecutar el backend:
 
-		composer require laravel/sanctum
-		php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+1. Para migrar las tablas a la base de datos:
+	
+		php artisan migrate
+		
+2. Para ejecutar el backend:
+
 		php artisan serve
+
 		
 2. Para ejecutar el frontend:
 	
 		npm install
-		ionic serve
+		ng serve
 		
-3. Para migrar las tablas a la base de datos:
-	
-		php artisan migrate
-		
-# Guía de instalación.
-
-- Requisitos:
-	- Visual Studio Code (Se recomienda la extensión oficial de Ionic).
-	- MySql Workbench.
-	- Postman.
 
 # Modelos
 
@@ -90,42 +81,6 @@ Si se quiere importar manualmente la BBDD, he dejado el archivo del script en un
 # Casos de uso.
 
 ![image](https://user-images.githubusercontent.com/96262947/207384578-eb77c5c3-138a-4480-9a76-996da03c160c.png)
-
-# Figma (orientativo).
-
-https://www.figma.com/file/OJrWtxJKa0ffdyPAAYJAF0/Untitled?t=ISRTa8GFNUw6HkGU-0
-
-# Usabilidad y accesibilidad.
-
-He usado los colores de la web de la OFGC, que son el azul turquesa, marrón y el blanco como tonalidades predominantes.
-
-	- La aplicación es sencilla. Es una agenda básica donde se insertan, editan y eliminan eventos.
-	- Esta hecha para verse en móvil. He intentado que no de mucho miedo en versión ordenador, pero debería verse en tamaño móvil.
-	- Se puede navegar tanto con los botones del móvil como con la barra de navegación lateral o los botones de la aplicación.
-	- El diseño es minimalista, pero con buen gusto (aunque esté mal que lo diga yo).
-	- Los colores son fáciles de distinguir.
-	- La fuente y su tamaño son los adecuados para no forzar la vista.
-	
-# Pila tecnológica.
-
-	- Backend: Laravel 9 (con el ORM Eloquent perfectamente implementado).
-	- Frontend: Ionic (con Angular en su última versión).
-	
-# Plan de trabajo.
-
-	AED: https://trello.com/b/ZwVcICX0/aed
-	DAD: https://trello.com/b/ZwVcICX0/aed
-	PGV: https://trello.com/b/qspeAK7K/pgv
-	PGL: https://trello.com/b/qspeAK7K/pgv
-
-# Postman
-
-https://documenter.getpostman.com/view/23479374/2s8YzZPe48
-	
-# Idea final.
-
-	Especialmente esta última semana he sentido la presión de tener el proyecto terminado y no me he sabido organizar bien. Si no llega a ser por la insistencia de mi compañera Eva no hubiera entregado nada. Sobre las tecnologías, me ha sorprendido para bien Laravel en cuanto a lo instuitivo que resulta, pero hay pocos tutoriales de su última versión y eso me ha dificultado mucho el aprendizaje. Los errores en el frontend de Ionic han sido un calvario, hubiera preferido hacerlo en Angular y así disfrutar de la gran comunidad que tiene para resolver dudas.
-
 
 
 
