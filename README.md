@@ -166,7 +166,7 @@ Restricciones:
 1. Para modificar la información de los eventos el usuario debe ser administrador.
 2. El login atiende a las siguientes validaciones:
 	- El correo debe llevar un "@".
-	- La contraseña no puede ser corta y tiene que tener al menos un número, letra mayúscula y letra minúscula (Las validaciones están desactivadas en estos momentos porque tuvo un percance con el proyecto y el login no puede conectarse al backend correctamente, pero si se elimina una línea que te lleva al menú principal, se vuelven a activar).
+	- La contraseña no puede ser corta y tiene que tener al menos un número, letra mayúscula y letra minúscula.
 	- En el registro existen las mismas validaciones.
 
 Interfaces y componentes:
