@@ -147,6 +147,30 @@ He usado los colores de la web de la OFGC, que son el azul turquesa, marrón y e
 # Postman
 
 https://documenter.getpostman.com/view/23479374/2s8YzZPe48
+
+# Requisitos de usuario.
+
+Entorno de uso:
+
+1. Mi aplicación está confeccionada para visualizarla en un móvil. Se verá ensanchada en un ordenador.
+
+Métodos de acceso:
+
+1. Hay que loguearse para entrar en la aplicación.
+2. En caso de no tener cuenta, hay que crearla en su correspondiente interfaz.
+3. Si eres un usuario corriente, te tienes que crear la cuenta por ti mismo. Si eres un admin, ya la tienes creada de antemano y solo debes loguearte.
+
+Restricciones:
+
+1. Para modificar la información de los eventos el usuario debe ser administrador.
+
+Interfaces:
+
+1. Login.
+2. Registro.
+3. Pantalla principal de los eventos.
+4. Perfil.
+5. Contacto.
 	
 # Idea final.
 
