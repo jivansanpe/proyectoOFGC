@@ -12,7 +12,7 @@ export class HomePage {
   // Navega al login tras dos segundos de espera.
   ionViewDidEnter() {
     setTimeout(() => {
-      this.router.navigate(['/login']);
+      this.router.navigate(['/vistoso']);
     }, 2000);
   }
 }

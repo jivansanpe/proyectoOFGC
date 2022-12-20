@@ -1,6 +1,15 @@
-// body {
-//     background-color: rgb(50, 94, 133);
-// }
+body {
+    background-color: #098181;
+}
+
+.bg_1 {
+  background-size: cover;
+  width: 100%;
+  object-fit: fill;
+  background-color: #098181;
+
+}
+
 
 ion-slides {
   position: absolute;

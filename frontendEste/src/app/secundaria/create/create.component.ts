@@ -19,7 +19,7 @@ export class CreateComponent implements OnInit {
   ngOnInit() {
 
     this.form = new FormGroup({
-      nombre: new FormControl('', [Validators.required, Validators.pattern('^[a-zA-ZÁáÀàÉéÈèÍíÌìÓóÒòÚúÙùÑñüÜ \-\']+')]),
+      apodo: new FormControl('', [Validators.required, Validators.pattern('^[a-zA-ZÁáÀàÉéÈèÍíÌìÓóÒòÚúÙùÑñüÜ \-\']+')]),
     });
 
   }

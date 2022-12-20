@@ -8,7 +8,7 @@
   <div id="container">
     <ion-img class="logo_pequeño" src="assets/img/principal/logo_pequeño.png"
       alt="Logo pequeño en principal."></ion-img>
-      <ion-img class="logo_login" src="assets/img/login/logo_login.png" alt="Logo en login."></ion-img>
+    <ion-img class="logo_login" src="assets/img/login/logo_login.png" alt="Logo en login."></ion-img>
     <ion-img class="icon_perfil" src="assets/img/principal/icon_perfil.png" alt="Icono de perfil."
       routerLink="/perfil"></ion-img>
     <ion-img class="encabezado" src="assets/img/principal/apaño.png" alt="Encabezado en principal."
@@ -18,6 +18,7 @@
     <!-- Mostrar los eventos -->
     <app-index class="indexito"></app-index>
     
+
     <!-- <ion-tabs>
       <ion-tab-bar class="invisible-background" slot="bottom">
         <ion-tab-button class="invisible-background" tab="create">
@@ -26,8 +27,17 @@
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs> -->
-  
+
   </div>
 
 </ion-content>
 
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button color="transparent" routerLink="/secundaria">Segunda  página</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

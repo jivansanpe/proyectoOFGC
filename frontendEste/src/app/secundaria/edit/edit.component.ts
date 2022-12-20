@@ -19,7 +19,7 @@ export class EditComponent implements OnInit {
   director: Director = {
     id: 0,
     apodo: '',
-    imagen: new Blob
+    imagen: 'arraybuffer'
   };
   form: FormGroup = new FormGroup({});
 
