@@ -1,0 +1,24 @@
+.slider {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.slider img:not(:first-child) {
+  display: none;
+}
+
+.slider img:first-child + button.prev {
+  display: none;
+}
+
+.slider img:last-child + button.next {
+  display: none;
+}

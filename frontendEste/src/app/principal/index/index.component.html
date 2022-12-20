@@ -1,14 +1,17 @@
-<section>
-  <br>
-  <ion-grid [fixed]="true">
-    <ion-row *ngFor="let event of events">
-      <ion-col>{{ event.tipo }}</ion-col>
-      <ion-col>{{ event.lugar }}</ion-col>
-      <ion-col>{{ event.fecha }}</ion-col>
-      <ion-col>
-        <a [routerLink]="['/principal/', 'edit', event.id  ]" class="btn btn-primary">Editar</a>
-        <button type="button" (click)="deleteEvent(event.id)" class="btn btn-danger">Eliminar</button>
+<ion-grid [fixed]="true">
+  <ion-row>
+    <ion-col>Nombre</ion-col>
+    <ion-col>Lugar</ion-col>
+    <ion-col>Fecha</ion-col>
+    <ion-col>Acciones</ion-col>
+  </ion-row>
+  <ion-row *ngFor="let event of events">
+    <ion-col>{{ event.nombre }}</ion-col>
+    <ion-col>{{ event.lugar }}</ion-col>
+    <ion-col>{{ event.fecha }}</ion-col>
+    <ion-col>
+      <a [routerLink]="['/principal/', 'edit', event.id  ]" class="btn btn-primary">Editar</a>
+      <button type="button" (click)="deleteEvent(event.id)" class="btn btn-danger">Eliminar</button>
     </ion-col>
-    </ion-row>
-  </ion-grid>
-</section>
+  </ion-row>
+</ion-grid>

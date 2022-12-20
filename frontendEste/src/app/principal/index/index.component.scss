@@ -4,12 +4,20 @@
     left: 235px;
     color: white;
 }
-  
+
 
 ion-col {
     text-align: center;
     font-size: 14px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #4395a2a8;
-  }
-  
+}
+
+ion-grid {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+ion-row {
+    margin-bottom: 10px;
+}
