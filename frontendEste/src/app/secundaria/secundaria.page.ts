@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-secundaria',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecundariaPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
-
+  
+  option2() {
+    if (confirm('¿Quieres crear un nuevo director?')) {
+      this.router.navigate(['/secundaria/create']);
+    }
+  }
 }

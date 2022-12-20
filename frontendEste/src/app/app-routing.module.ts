@@ -38,13 +38,10 @@ const routes: Routes = [
   {
     path: 'secundaria',
     loadChildren: () => import('./secundaria/secundaria.module').then( m => m.SecundariaPageModule)
-  },  {
-    path: 'vistoso',
-    loadChildren: () => import('./vistoso/vistoso.module').then( m => m.VistosoPageModule)
   },
   {
-    path: 'slide',
-    loadChildren: () => import('./slide/slide.module').then( m => m.SlidePageModule)
+    path: 'vistoso',
+    loadChildren: () => import('./vistoso/vistoso.module').then( m => m.VistosoPageModule)
   },
 
 ];

@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'secundaria', redirectTo: 'secundaria/index', pathMatch: 'full'},
   { path: 'secundaria/index', component: IndexComponent },
   { path: 'secundaria/create', component: CreateComponent },
-  { path: 'secundaria/edit/:id', component: EditComponent } 
+  { path: 'secundaria/edit/:id', component: EditComponent }
 ];
 
 @NgModule({

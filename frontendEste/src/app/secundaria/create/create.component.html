@@ -1,30 +1,32 @@
-<!-- <div>
+<body>
+  <div>
+    <hr />
+    <hr />
+    <hr />
+    <div class="d-flex justify-content-between">
+      <h4 class="form-title">Formulario de director</h4>
+      <a href="#" routerLink="/secundaria/" class="btn btn-primary">Volver</a>
+    </div>
 
-  <div class="d-flex justify-content-between">
-    <h4>Formulario de director</h4>
-    <a href="#" routerLink="/secundaria/" class="btn btn-primary">Volver</a>
-  </div>
-
-  <hr/>
+    <hr />
 
     <form [formGroup]="form" (ngSubmit)="submit()">
 
-        <div class="form-group row">
-            <div class="col-md-6 ">
-              <label for="apodo">Apodo:</label>
-              <input
-                formControlName="apodo"
-                id="apodo"
-                type="text"
-                class="form-control">
-              <div *ngIf="f['apodo'].touched && f['apodo'].invalid" class="alert alert-danger">
-                  <div *ngIf="f['apodo'].errors?.['required']">*El apodo del director es obligatorio.</div>
-                  <div *ngIf="f['apodo'].errors?.['pattern']">*El apodo solo debe contener letras.</div>
-              </div>
-            </div>
+      <div class="form-group row">
+        <div class="col-md-6 ">
+          <label form-label for="apodo">Apodo:</label>
+          <input form-control formControlName="apodo" id="apodo" type="text" class="form-control">
+          <div *ngIf="f['apodo'].touched && f['apodo'].invalid" class="alert alert-danger">
+            <div *ngIf="f['apodo'].errors?.['required']">*El apodo es obligatorio.</div>
+            <div *ngIf="f['apodo'].errors?.['pattern']">*El apodo debe ser un dígito.</div>
+          </div>
         </div>
+      </div>
 
-
-        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Crear</button>
+      <hr />
+      <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Crear</button>
     </form>
-</div> -->
+  </div>
+  <ion-img class="logo_login" src="assets/img/login/logo_login.png" alt="Logo en login."></ion-img>
+  
+</body>

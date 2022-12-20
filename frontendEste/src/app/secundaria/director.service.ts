@@ -29,7 +29,7 @@ export class DirectorService {
   }
 
   create(director: Director): Observable<Director> {
-    return this.httpClient.post<Director>(this.apiURL, JSON.stringify(event), this.httpOptions)
+    return this.httpClient.post<Director>(this.apiURL, JSON.stringify(director), this.httpOptions)
       .pipe(
         catchError(this.errorHandler)
       )
@@ -42,8 +42,8 @@ export class DirectorService {
       )
   }
 
-  update(id: number, event: Director): Observable<Director> {
-    return this.httpClient.put<Director>(this.apiURL + id, JSON.stringify(event), this.httpOptions)
+  update(id: number, director: Director): Observable<Director> {
+    return this.httpClient.put<Director>(this.apiURL + id, JSON.stringify(director), this.httpOptions)
       .pipe(
         catchError(this.errorHandler)
       )

@@ -36,7 +36,7 @@ export class CreateComponent implements OnInit {
     console.log(this.form.value);
     this.directorService.create(this.form.value).subscribe(res => {
       console.log('¡Director creado con éxito!');
-      // this.router.navigateByUrl('/principal/');
+      // this.router.navigateByUrl('/secundaria/');
       this.goBack();
     })
   }

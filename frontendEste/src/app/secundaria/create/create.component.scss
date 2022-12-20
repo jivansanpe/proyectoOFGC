@@ -1,0 +1,66 @@
+body {
+    background-image: url('../../../assets/img/login/bg_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alert-danger {
+    color: red;
+}
+
+label {
+    color: black;
+}
+
+.logo_login {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 2;
+}
+
+.form-title {
+    color: rgb(68, 47, 47);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.form-group {
+    padding: 0 1rem;
+}
+
+.form-label {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #098181;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.55rem 1.5rem;
+    width: 92%;
+    margin: 0 1rem;
+}
+
+.form-button:hover {
+    background-color: #444;
+}

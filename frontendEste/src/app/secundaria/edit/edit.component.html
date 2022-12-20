@@ -1,3 +1,31 @@
-<p>
-  edit works!
-</p>
+<body>
+  <div>
+    <hr />
+    <hr />
+    <hr />
+    <div class="d-flex justify-content-between">
+      <h4 class="form-title">Formulario de directoro</h4>
+      <a href="#" routerLink="/secundaria/" class="btn btn-primary">Volver</a>
+    </div>
+
+    <hr />
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+
+      <div class="form-group row">
+        <div class="col-md-6 ">
+          <label form-label for="Apodo">Apodo:</label>
+          <input form-control formControlName="Apodo" id="Apodo" type="text" class="form-control">
+          <div *ngIf="f['Apodo'].touched && f['Apodo'].invalid" class="alert alert-danger">
+            <div *ngIf="f['Apodo'].errors?.['required']">*El Apodo del directoro es obligatorio.</div>
+            <div *ngIf="f['Apodo'].errors?.['pattern']">*El Apodo solo debe contener letras.</div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Actualizar</button>
+    </form>
+  </div>
+  <ion-img class="logo_login" src="assets/img/login/logo_login.png" alt="Logo en login."></ion-img>
+  
+</body>
