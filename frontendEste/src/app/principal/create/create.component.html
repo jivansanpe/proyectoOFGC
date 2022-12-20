@@ -1,105 +1,87 @@
-<div>
+<body>
+  <div>
+    <hr />
+    <hr />
+    <hr />
+    <div class="d-flex justify-content-between">
+      <h4 class="form-title">Formulario de evento</h4>
+      <a href="#" routerLink="/principal/" class="btn btn-primary">Volver</a>
+    </div>
 
-  <div class="d-flex justify-content-between">
-    <h4>Formulario de evento</h4>
-    <a href="#" routerLink="/principal/" class="btn btn-primary">Volver</a>
-  </div>
-
-  <hr/>
+    <hr />
 
     <form [formGroup]="form" (ngSubmit)="submit()">
 
-        <div class="form-group row">
-            <div class="col-md-6 ">
-              <label for="nombre">Nombre:</label>
-              <input
-                formControlName="nombre"
-                id="nombre"
-                type="text"
-                class="form-control">
-              <div *ngIf="f['nombre'].touched && f['nombre'].invalid" class="alert alert-danger">
-                  <div *ngIf="f['nombre'].errors?.['required']">*El nombre del evento es obligatorio.</div>
-                  <div *ngIf="f['nombre'].errors?.['pattern']">*El nombre solo debe contener letras.</div>
-              </div>
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-md-6 ">
-              <label for="tipo">Tipo:</label>
-              <input
-                formControlName="tipo"
-                id="tipo"
-                type="text"
-                class="form-control">
-              <div *ngIf="f['tipo'].touched && f['tipo'].invalid" class="alert alert-danger">
-                  <div *ngIf="f['tipo'].errors?.['required']">*El tipo es obligatorio.</div>
-                  <div *ngIf="f['tipo'].errors?.['pattern']">*El tipo solo debe contener letras.</div>
-              </div>
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-md-6 ">
-              <label for="lugar">Lugar:</label>
-              <input
-                formControlName="lugar"
-                id="lugar"
-                type="text"
-                class="form-control">
-              <div *ngIf="f['lugar'].touched && f['lugar'].invalid" class="alert alert-danger">
-                  <div *ngIf="f['lugar'].errors?.['required']">*El lugar es obligatorio.</div>
-                  <div *ngIf="f['lugar'].errors?.['pattern']">*El lugar solo debe contener letras.</div>
-              </div>
-            </div>
-        </div>
-
-        <div class="form-group row">
-          <div class="col-md-6 ">
-            <label for="fecha">Fecha:</label>
-            <input
-              formControlName="fecha"
-              id="fecha"
-              type="text"
-              class="form-control">
-            <div *ngIf="f['fecha'].touched && f['fecha'].invalid" class="alert alert-danger">
-                <div *ngIf="f['fecha'].errors?.['required']">*La fecha es obligatoria.</div>
-                <div *ngIf="f['fecha'].errors?.['pattern']">*La fecha solo debe contener dígitos y "/".</div>
-            </div>
+      <div class="form-group row">
+        <div class="col-md-6 ">
+          <label form-label for="nombre">Nombre:</label>
+          <input form-control formControlName="nombre" id="nombre" type="text" class="form-control">
+          <div *ngIf="f['nombre'].touched && f['nombre'].invalid" class="alert alert-danger">
+            <div *ngIf="f['nombre'].errors?.['required']">*El nombre del evento es obligatorio.</div>
+            <div *ngIf="f['nombre'].errors?.['pattern']">*El nombre solo debe contener letras.</div>
           </div>
+        </div>
       </div>
 
       <div class="form-group row">
-          <div class="col-md-6 ">
-            <label for="horario">Horario:</label>
-            <input
-              formControlName="horario"
-              id="horario"
-              type="text"
-              class="form-control">
-            <div *ngIf="f['horario'].touched && f['horario'].invalid" class="alert alert-danger">
-                <div *ngIf="f['horario'].errors?.['required']">*El horario es obligatorio.</div>
-                <div *ngIf="f['horario'].errors?.['pattern']">*El horario solo debe contener letras.</div>
-            </div>
+        <div class="col-md-6 ">
+          <label form-label for="tipo">Tipo:</label>
+          <input form-control formControlName="tipo" id="tipo" type="text" class="form-control">
+          <div *ngIf="f['tipo'].touched && f['tipo'].invalid" class="alert alert-danger">
+            <div *ngIf="f['tipo'].errors?.['required']">*El tipo es obligatorio.</div>
+            <div *ngIf="f['tipo'].errors?.['pattern']">*El tipo solo debe contener letras.</div>
           </div>
+        </div>
       </div>
 
       <div class="form-group row">
-          <div class="col-md-6 ">
-            <label for="director_id">Director_id:</label>
-            <input
-              formControlName="director_id"
-              id="director_id"
-              type="text"
-              class="form-control">
-            <div *ngIf="f['director_id'].touched && f['director_id'].invalid" class="alert alert-danger">
-                <div *ngIf="f['director_id'].errors?.['required']">*El director_id es obligatorio.</div>
-                <div *ngIf="f['director_id'].errors?.['pattern']">*El director_id debe ser un dígito.</div>
-            </div>
+        <div class="col-md-6 ">
+          <label form-label for="lugar">Lugar:</label>
+          <input form-control formControlName="lugar" id="lugar" type="text" class="form-control">
+          <div *ngIf="f['lugar'].touched && f['lugar'].invalid" class="alert alert-danger">
+            <div *ngIf="f['lugar'].errors?.['required']">*El lugar es obligatorio.</div>
+            <div *ngIf="f['lugar'].errors?.['pattern']">*El lugar solo debe contener letras.</div>
           </div>
+        </div>
       </div>
 
+      <div class="form-group row">
+        <div class="col-md-6 ">
+          <label form-label for="fecha">Fecha:</label>
+          <input form-control formControlName="fecha" id="fecha" type="text" class="form-control">
+          <div *ngIf="f['fecha'].touched && f['fecha'].invalid" class="alert alert-danger">
+            <div *ngIf="f['fecha'].errors?.['required']">*La fecha es obligatoria.</div>
+            <div *ngIf="f['fecha'].errors?.['pattern']">*La fecha solo debe contener dígitos y "/".</div>
+          </div>
+        </div>
+      </div>
 
-        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Crear</button>
+      <div class="form-group row">
+        <div class="col-md-6 ">
+          <label form-label for="horario">Horario:</label>
+          <input form-control formControlName="horario" id="horario" type="text" class="form-control">
+          <div *ngIf="f['horario'].touched && f['horario'].invalid" class="alert alert-danger">
+            <div *ngIf="f['horario'].errors?.['required']">*El horario es obligatorio.</div>
+            <div *ngIf="f['horario'].errors?.['pattern']">*El horario solo debe contener letras.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-md-6 ">
+          <label form-label for="director_id">Director_id:</label>
+          <input form-control formControlName="director_id" id="director_id" type="text" class="form-control">
+          <div *ngIf="f['director_id'].touched && f['director_id'].invalid" class="alert alert-danger">
+            <div *ngIf="f['director_id'].errors?.['required']">*El director_id es obligatorio.</div>
+            <div *ngIf="f['director_id'].errors?.['pattern']">*El director_id debe ser un dígito.</div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Crear</button>
     </form>
-</div>
+  </div>
+  <ion-img class="logo_login" src="assets/img/login/logo_login.png" alt="Logo en login."></ion-img>
+  
+</body>
