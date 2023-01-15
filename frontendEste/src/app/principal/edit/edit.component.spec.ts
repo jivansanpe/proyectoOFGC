@@ -1,24 +1,24 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
+// import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+// import { IonicModule } from '@ionic/angular';
 
-import { EditComponent } from './edit.component';
+// import { EditComponent } from './edit.component';
 
-describe('EditComponent', () => {
-  let component: EditComponent;
-  let fixture: ComponentFixture<EditComponent>;
+// describe('EditComponent', () => {
+//   let component: EditComponent;
+//   let fixture: ComponentFixture<EditComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ EditComponent ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+//   beforeEach(waitForAsync(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [ EditComponent ],
+//       imports: [IonicModule.forRoot()]
+//     }).compileComponents();
 
-    fixture = TestBed.createComponent(EditComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+//     fixture = TestBed.createComponent(EditComponent);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   }));
 
-  xit('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+//   xit('should create', () => {
+//     expect(component).toBeTruthy();
+//   });
+// });

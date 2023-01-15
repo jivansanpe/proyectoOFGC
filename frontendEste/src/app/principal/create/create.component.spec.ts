@@ -23,9 +23,9 @@ describe('CreateComponent', () => {
     fixture.detectChanges();
   }));
 
-  xit('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  // it('should create', () => {
+  //   expect(component).toBeTruthy();
+  // });
 
   it('should validate nombre field', () => {
     let nickname = component.form.controls['nombre'];

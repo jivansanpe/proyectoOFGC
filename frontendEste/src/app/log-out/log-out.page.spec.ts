@@ -1,24 +1,24 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
+// import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+// import { IonicModule } from '@ionic/angular';
 
-import { LogOutPage } from './log-out.page';
+// import { LogOutPage } from './log-out.page';
 
-describe('LogOutPage', () => {
-  let component: LogOutPage;
-  let fixture: ComponentFixture<LogOutPage>;
+// describe('LogOutPage', () => {
+//   let component: LogOutPage;
+//   let fixture: ComponentFixture<LogOutPage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ LogOutPage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+//   beforeEach(waitForAsync(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [ LogOutPage ],
+//       imports: [IonicModule.forRoot()]
+//     }).compileComponents();
 
-    fixture = TestBed.createComponent(LogOutPage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+//     fixture = TestBed.createComponent(LogOutPage);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   }));
 
-  xit('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+//   xit('should create', () => {
+//     expect(component).toBeTruthy();
+//   });
+// });

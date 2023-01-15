@@ -1,24 +1,24 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
+// import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+// import { IonicModule } from '@ionic/angular';
 
-import { IndexComponent } from './index.component';
+// import { IndexComponent } from './index.component';
 
-describe('IndexComponent', () => {
-  let component: IndexComponent;
-  let fixture: ComponentFixture<IndexComponent>;
+// describe('IndexComponent', () => {
+//   let component: IndexComponent;
+//   let fixture: ComponentFixture<IndexComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ IndexComponent ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+//   beforeEach(waitForAsync(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [ IndexComponent ],
+//       imports: [IonicModule.forRoot()]
+//     }).compileComponents();
 
-    fixture = TestBed.createComponent(IndexComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+//     fixture = TestBed.createComponent(IndexComponent);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   }));
 
-  xit('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+//   xit('should create', () => {
+//     expect(component).toBeTruthy();
+//   });
+// });

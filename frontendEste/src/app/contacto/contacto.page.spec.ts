@@ -1,24 +1,24 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
+// import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+// import { IonicModule } from '@ionic/angular';
 
-import { ContactoPage } from './contacto.page';
+// import { ContactoPage } from './contacto.page';
 
-describe('ContactoPage', () => {
-  let component: ContactoPage;
-  let fixture: ComponentFixture<ContactoPage>;
+// describe('ContactoPage', () => {
+//   let component: ContactoPage;
+//   let fixture: ComponentFixture<ContactoPage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ ContactoPage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+//   beforeEach(waitForAsync(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [ ContactoPage ],
+//       imports: [IonicModule.forRoot()]
+//     }).compileComponents();
 
-    fixture = TestBed.createComponent(ContactoPage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+//     fixture = TestBed.createComponent(ContactoPage);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   }));
 
-  xit('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+//   xit('should create', () => {
+//     expect(component).toBeTruthy();
+//   });
+// });

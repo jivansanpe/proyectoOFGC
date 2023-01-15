@@ -24,11 +24,11 @@ describe('EditComponent', () => {
     fixture.detectChanges();
   }));
 
-  xit('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  // it('should create', () => {
+  //   expect(component).toBeTruthy();
+  // });
 
-  it('should validate nickname field', () => {
+  it('should validate edit apodo field', () => {
     let nickname = component.form.controls['apodo'];
 
     nickname.setValue('');
