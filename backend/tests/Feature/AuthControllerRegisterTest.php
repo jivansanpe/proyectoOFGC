@@ -14,7 +14,7 @@ class RegisterTest extends TestCase
     {
         self::$registerData = [
             'name' => $randomString = bin2hex(random_bytes(5)),
-            'email' => $randomString.'@example.com',
+            'email' => $randomString . '@example.com',
             'password' => 'password',
             'confirm_password' => 'password',
         ];
@@ -36,6 +36,20 @@ class RegisterTest extends TestCase
         // Assert that the login was successful
         $response->assertStatus(200)->assertJson([
             'message' => 'User signed in'
+        ]);
+    }
+
+    public function testInvalidLogin()
+    {
+        $loginData = [
+            'email' => self::$registerData['email'],
+            'password' => 'incorrect_password',
+        ];
+        $response = $this->json('POST', '/api/login', $loginData);
+
+        // Assert that the login was not successful
+        $response->assertStatus(404)->assertJson([
+            'message' => 'Unauthorised.'
         ]);
     }
 }
