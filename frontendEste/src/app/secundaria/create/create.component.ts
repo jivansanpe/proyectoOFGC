@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DirectorService } from '../director.service';
 import { Router } from '@angular/router';
-import { FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
+import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
 
 import { ElementRef } from '@angular/core';
 
