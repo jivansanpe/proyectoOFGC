@@ -1,0 +1,23 @@
+{
+    "name": "prueba",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": null,
+    "shortid": "imWjwuuN8d",
+    "chrome": {
+        "printBackground": true
+    },
+    "scripts": [
+        {
+            "shortid": "9kt7BZNRPh"
+        }
+    ],
+    "creationDate": {
+        "$$date": 1675968470753
+    },
+    "modificationDate": {
+        "$$date": 1675968696089
+    },
+    "_id": "4I6jK90YlHaNEWdC",
+    "$entitySet": "templates"
+}

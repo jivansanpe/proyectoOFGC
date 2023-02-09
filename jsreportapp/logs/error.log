@@ -1,0 +1,14 @@
+2023-02-09T18:49:25.705Z - error: Error when processing OData POST: /odata/data Error: Entity with name "prueba" already exists in the /samples folder.
+    at module.exports (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at validateDuplicatedName (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\folders\validateDuplicatedName.js:75:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ListenerCollection.fire (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.insert (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:141:5)
+2023-02-09T18:49:27.800Z - error: Error when processing OData POST: /odata/data Error: Entity with name "prueba" already exists in the /samples folder.
+    at module.exports (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at validateDuplicatedName (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\folders\validateDuplicatedName.js:75:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ListenerCollection.fire (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.insert (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:141:5)

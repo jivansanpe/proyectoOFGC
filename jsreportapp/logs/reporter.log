@@ -1,0 +1,280 @@
+2023-02-09T18:32:10.354Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
+2023-02-09T18:32:10.356Z - info: Searching for available extensions in C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\
+2023-02-09T18:32:10.359Z - info: Extensions location cache not found, crawling directories
+2023-02-09T18:32:11.734Z - info: Found 35 extension(s)
+2023-02-09T18:32:11.813Z - info: Using extension base@3.0.1
+2023-02-09T18:32:11.818Z - info: Using extension child-templates@3.1.0
+2023-02-09T18:32:11.822Z - info: Using extension cli@3.2.3
+2023-02-09T18:32:11.824Z - info: Using extension components@3.3.0
+2023-02-09T18:32:11.826Z - info: Using extension data@3.1.0
+2023-02-09T18:32:11.828Z - info: Using extension express@3.6.0
+2023-02-09T18:32:12.124Z - info: Using extension freeze@3.0.1
+2023-02-09T18:32:12.126Z - info: Using extension fs-store@3.2.4
+2023-02-09T18:32:12.235Z - info: Using extension handlebars@3.2.1
+2023-02-09T18:32:12.237Z - info: Using extension import-export@3.2.0
+2023-02-09T18:32:12.252Z - info: Using extension jsrender@3.0.0
+2023-02-09T18:32:12.253Z - info: Using extension licensing@3.0.2
+2023-02-09T18:32:12.279Z - info: Using extension localization@3.2.1
+2023-02-09T18:32:12.281Z - info: Using extension npm@3.1.2
+2023-02-09T18:32:12.284Z - info: Using extension pdf-utils@3.7.0
+2023-02-09T18:32:12.286Z - info: Using extension reports@3.1.1
+2023-02-09T18:32:12.290Z - info: Using extension tags@3.1.1
+2023-02-09T18:32:12.293Z - info: Using extension text@3.0.0
+2023-02-09T18:32:12.294Z - info: Using extension version-control@3.1.2
+2023-02-09T18:32:12.307Z - info: Using extension assets@3.6.0
+2023-02-09T18:32:12.318Z - info: Using extension authorization@3.3.0
+2023-02-09T18:32:12.322Z - info: Using extension browser-client@3.1.1
+2023-02-09T18:32:12.325Z - info: Using extension chrome-pdf@3.3.0
+2023-02-09T18:32:12.329Z - info: Using extension docx@3.6.0
+2023-02-09T18:32:12.331Z - info: Using extension html-to-xlsx@3.3.0
+2023-02-09T18:32:12.424Z - info: html-to-xlsx detected chrome as available html engine
+2023-02-09T18:32:12.425Z - info: Using extension pptx@3.4.0
+2023-02-09T18:32:12.428Z - info: Using extension scheduling@3.0.3
+2023-02-09T18:32:12.458Z - info: Using extension scripts@3.4.0
+2023-02-09T18:32:12.459Z - info: Using extension static-pdf@3.0.1
+2023-02-09T18:32:12.461Z - info: Using extension studio@3.9.0
+2023-02-09T18:32:12.544Z - info: Using extension xlsx@3.4.0
+2023-02-09T18:32:12.569Z - info: Using extension public-templates@3.0.0
+2023-02-09T18:32:12.571Z - info: Using extension sample-template@3.2.1
+2023-02-09T18:32:12.575Z - info: Using extension studio-theme-dark@3.0.1
+2023-02-09T18:32:12.577Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-02-09T18:32:12.578Z - info: Using fs provider for template store.
+2023-02-09T18:32:12.583Z - info: fs store is persisting using fs for C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\data
+2023-02-09T18:32:12.610Z - info: fs store is loading data
+2023-02-09T18:32:12.617Z - info: fs store is initialized successfully
+2023-02-09T18:32:12.675Z - info: Creating default express app.
+2023-02-09T18:32:12.697Z - info: jsreport server successfully started on http port: 5488
+2023-02-09T18:32:12.698Z - info: Verifying license key free
+2023-02-09T18:32:12.699Z - info: Using free license
+2023-02-09T18:32:12.722Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2023-02-09T18:32:12.729Z - info: Migration successful
+2023-02-09T18:32:12.938Z - info: Initializing worker threads
+2023-02-09T18:32:13.273Z - info: 2 worker threads initialized in 335ms
+2023-02-09T18:32:13.274Z - info: Starting temp files cleanup with 180000ms threshold
+2023-02-09T18:32:13.275Z - info: reporter initialized
+2023-02-09T18:46:31.513Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
+2023-02-09T18:46:31.515Z - info: Searching for available extensions in C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\
+2023-02-09T18:46:31.521Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\
+2023-02-09T18:46:31.532Z - info: Found 35 extension(s)
+2023-02-09T18:46:31.628Z - info: Using extension base@3.0.1
+2023-02-09T18:46:31.634Z - info: Using extension child-templates@3.1.0
+2023-02-09T18:46:31.637Z - info: Using extension cli@3.2.3
+2023-02-09T18:46:31.639Z - info: Using extension components@3.3.0
+2023-02-09T18:46:31.642Z - info: Using extension data@3.1.0
+2023-02-09T18:46:31.643Z - info: Using extension express@3.6.0
+2023-02-09T18:46:32.244Z - info: Using extension freeze@3.0.1
+2023-02-09T18:46:32.247Z - info: Using extension fs-store@3.2.4
+2023-02-09T18:46:32.417Z - info: Using extension handlebars@3.2.1
+2023-02-09T18:46:32.419Z - info: Using extension import-export@3.2.0
+2023-02-09T18:46:32.437Z - info: Using extension jsrender@3.0.0
+2023-02-09T18:46:32.438Z - info: Using extension licensing@3.0.2
+2023-02-09T18:46:32.473Z - info: Using extension localization@3.2.1
+2023-02-09T18:46:32.475Z - info: Using extension npm@3.1.2
+2023-02-09T18:46:32.496Z - info: Using extension pdf-utils@3.7.0
+2023-02-09T18:46:32.501Z - info: Using extension reports@3.1.1
+2023-02-09T18:46:32.504Z - info: Using extension tags@3.1.1
+2023-02-09T18:46:32.507Z - info: Using extension text@3.0.0
+2023-02-09T18:46:32.508Z - info: Using extension version-control@3.1.2
+2023-02-09T18:46:32.528Z - info: Using extension assets@3.6.0
+2023-02-09T18:46:32.544Z - info: Using extension authorization@3.3.0
+2023-02-09T18:46:32.550Z - info: Using extension browser-client@3.1.1
+2023-02-09T18:46:32.556Z - info: Using extension chrome-pdf@3.3.0
+2023-02-09T18:46:32.560Z - info: Using extension docx@3.6.0
+2023-02-09T18:46:32.563Z - info: Using extension html-to-xlsx@3.3.0
+2023-02-09T18:46:32.706Z - info: html-to-xlsx detected chrome as available html engine
+2023-02-09T18:46:32.706Z - info: Using extension pptx@3.4.0
+2023-02-09T18:46:32.710Z - info: Using extension scheduling@3.0.3
+2023-02-09T18:46:32.775Z - info: Using extension scripts@3.4.0
+2023-02-09T18:46:32.777Z - info: Using extension static-pdf@3.0.1
+2023-02-09T18:46:32.778Z - info: Using extension studio@3.9.0
+2023-02-09T18:46:32.900Z - info: Using extension xlsx@3.4.0
+2023-02-09T18:46:32.951Z - info: Using extension public-templates@3.0.0
+2023-02-09T18:46:32.953Z - info: Using extension sample-template@3.2.1
+2023-02-09T18:46:32.956Z - info: Using extension studio-theme-dark@3.0.1
+2023-02-09T18:46:32.958Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-02-09T18:46:32.959Z - info: Using fs provider for template store.
+2023-02-09T18:46:32.964Z - info: fs store is persisting using fs for C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\data
+2023-02-09T18:46:32.969Z - info: fs store is loading data
+2023-02-09T18:46:32.985Z - info: fs store is initialized successfully
+2023-02-09T18:46:32.997Z - info: Creating default express app.
+2023-02-09T18:46:33.031Z - info: jsreport server successfully started on http port: 5488
+2023-02-09T18:46:33.034Z - info: Verifying license key free
+2023-02-09T18:46:33.043Z - info: Using free license
+2023-02-09T18:46:33.048Z - info: Initializing worker threads
+2023-02-09T18:46:33.361Z - info: 2 worker threads initialized in 313ms
+2023-02-09T18:46:33.362Z - info: Starting temp files cleanup with 180000ms threshold
+2023-02-09T18:46:33.363Z - info: reporter initialized
+2023-02-09T18:49:25.705Z - error: Error when processing OData POST: /odata/data Error: Entity with name "prueba" already exists in the /samples folder.
+    at module.exports (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at validateDuplicatedName (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\folders\validateDuplicatedName.js:75:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ListenerCollection.fire (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.insert (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:141:5)
+2023-02-09T18:49:27.800Z - error: Error when processing OData POST: /odata/data Error: Entity with name "prueba" already exists in the /samples folder.
+    at module.exports (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at validateDuplicatedName (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\folders\validateDuplicatedName.js:75:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ListenerCollection.fire (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.insert (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:141:5)
+2023-02-09T18:49:36.511Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=4tfb7cjn29xvk3o, id=4tfb7cjn29xvk3o
+2023-02-09T18:49:36.549Z - info: Starting rendering request 1 rootId=4tfb7cjn29xvk3o, id=4tfb7cjn29xvk3o, fromEmitProfile=true
+2023-02-09T18:49:36.549Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4tfb7cjn29xvk3o, id=4tfb7cjn29xvk3o, fromEmitProfile=true
+2023-02-09T18:49:36.868Z - warn: Error when processing render request 1
+(because) error when evaluating custom script /samples/script
+require of "axios" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["axios"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const axios = require('axios');
+    |               ^
+  3 |
+  4 | async function beforeRender(req, res) {
+  5 |     const resAuthors = await axios.get('http://localhost:8000/api/events')
+
+(sandbox.js line 11:42)
+
+  9 | }
+
+
+Error: require of "axios" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["axios"] }
+    at _require (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:79:19)
+    at require (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:112:21)
+    at VM2 Wrapper.apply (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib/bridge.js:485:11)
+    at sandbox.js:2:15
+    at sandbox.js:11:42
+    at Script.runInContext (node:vm:139:12)
+    at VM.runScript (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib\vm.js:285:18)
+    at VM.run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib\vm.js:503:16)
+    at run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:173:25)
+    at run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:30) rootId=4tfb7cjn29xvk3o, id=4tfb7cjn29xvk3o, fromEmitProfile=true
+2023-02-09T18:49:36.869Z - warn: Rendering request 1 finished with error in 378 ms rootId=4tfb7cjn29xvk3o, id=4tfb7cjn29xvk3o, fromEmitProfile=true
+2023-02-09T18:50:29.370Z - info: Render request 2 queued for execution and waiting for available worker fromEmitProfile=true, rootId=6cocv1yitb9maz5, id=6cocv1yitb9maz5
+2023-02-09T18:50:29.392Z - info: Starting rendering request 2 rootId=6cocv1yitb9maz5, id=6cocv1yitb9maz5, fromEmitProfile=true
+2023-02-09T18:50:29.393Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6cocv1yitb9maz5, id=6cocv1yitb9maz5, fromEmitProfile=true
+2023-02-09T18:50:29.427Z - warn: Error when processing render request 2
+(because) error when evaluating custom script /samples/script
+require of "axios" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["axios"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const axios = require('axios');
+    |               ^
+  3 |
+  4 | async function beforeRender(req, res) {
+  5 |     const resAuthors = await axios.get('http://localhost:8000/api/events')
+
+(sandbox.js line 11:42)
+
+  9 | }
+
+
+Error: require of "axios" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["axios"] }
+    at _require (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:79:19)
+    at require (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:112:21)
+    at VM2 Wrapper.apply (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib/bridge.js:485:11)
+    at sandbox.js:2:15
+    at sandbox.js:11:42
+    at Script.runInContext (node:vm:139:12)
+    at VM.runScript (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib\vm.js:285:18)
+    at VM.run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib\vm.js:503:16)
+    at run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:173:25)
+    at run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:30) rootId=6cocv1yitb9maz5, id=6cocv1yitb9maz5, fromEmitProfile=true
+2023-02-09T18:50:29.429Z - warn: Rendering request 2 finished with error in 59 ms rootId=6cocv1yitb9maz5, id=6cocv1yitb9maz5, fromEmitProfile=true
+2023-02-09T18:51:13.689Z - info: Render request 3 queued for execution and waiting for available worker fromEmitProfile=true, rootId=n5d1uc5ywwr3x8c, id=n5d1uc5ywwr3x8c
+2023-02-09T18:51:13.708Z - info: Starting rendering request 3 rootId=n5d1uc5ywwr3x8c, id=n5d1uc5ywwr3x8c, fromEmitProfile=true
+2023-02-09T18:51:13.708Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=n5d1uc5ywwr3x8c, id=n5d1uc5ywwr3x8c, fromEmitProfile=true
+2023-02-09T18:51:13.720Z - warn: Error when processing render request 3
+(because) error when evaluating custom script /samples/script
+require of "axios" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["axios"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const axios = require('axios');
+    |               ^
+  3 |
+  4 | async function beforeRender(req, res) {
+  5 |     const resAuthors = await axios.get('http://localhost:8000/api/events')
+
+(sandbox.js line 11:42)
+
+  9 | }
+
+
+Error: require of "axios" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["axios"] }
+    at _require (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:79:19)
+    at require (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:112:21)
+    at VM2 Wrapper.apply (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib/bridge.js:485:11)
+    at sandbox.js:2:15
+    at sandbox.js:11:42
+    at Script.runInContext (node:vm:139:12)
+    at VM.runScript (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib\vm.js:285:18)
+    at VM.run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\vm2\lib\vm.js:503:16)
+    at run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:173:25)
+    at run (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:30) rootId=n5d1uc5ywwr3x8c, id=n5d1uc5ywwr3x8c, fromEmitProfile=true
+2023-02-09T18:51:13.721Z - warn: Rendering request 3 finished with error in 33 ms rootId=n5d1uc5ywwr3x8c, id=n5d1uc5ywwr3x8c, fromEmitProfile=true
+2023-02-09T18:51:23.436Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
+2023-02-09T18:51:23.439Z - info: Searching for available extensions in C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\
+2023-02-09T18:51:23.444Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\
+2023-02-09T18:51:23.452Z - info: Found 35 extension(s)
+2023-02-09T18:51:23.527Z - info: Using extension base@3.0.1
+2023-02-09T18:51:23.532Z - info: Using extension child-templates@3.1.0
+2023-02-09T18:51:23.536Z - info: Using extension cli@3.2.3
+2023-02-09T18:51:23.538Z - info: Using extension components@3.3.0
+2023-02-09T18:51:23.540Z - info: Using extension data@3.1.0
+2023-02-09T18:51:23.541Z - info: Using extension express@3.6.0
+2023-02-09T18:51:23.825Z - info: Using extension freeze@3.0.1
+2023-02-09T18:51:23.827Z - info: Using extension fs-store@3.2.4
+2023-02-09T18:51:23.920Z - info: Using extension handlebars@3.2.1
+2023-02-09T18:51:23.922Z - info: Using extension import-export@3.2.0
+2023-02-09T18:51:23.935Z - info: Using extension jsrender@3.0.0
+2023-02-09T18:51:23.936Z - info: Using extension licensing@3.0.2
+2023-02-09T18:51:23.959Z - info: Using extension localization@3.2.1
+2023-02-09T18:51:23.960Z - info: Using extension npm@3.1.2
+2023-02-09T18:51:23.979Z - info: Using extension pdf-utils@3.7.0
+2023-02-09T18:51:23.983Z - info: Using extension reports@3.1.1
+2023-02-09T18:51:23.985Z - info: Using extension tags@3.1.1
+2023-02-09T18:51:23.988Z - info: Using extension text@3.0.0
+2023-02-09T18:51:23.989Z - info: Using extension version-control@3.1.2
+2023-02-09T18:51:24.002Z - info: Using extension assets@3.6.0
+2023-02-09T18:51:24.012Z - info: Using extension authorization@3.3.0
+2023-02-09T18:51:24.016Z - info: Using extension browser-client@3.1.1
+2023-02-09T18:51:24.019Z - info: Using extension chrome-pdf@3.3.0
+2023-02-09T18:51:24.022Z - info: Using extension docx@3.6.0
+2023-02-09T18:51:24.025Z - info: Using extension html-to-xlsx@3.3.0
+2023-02-09T18:51:24.112Z - info: html-to-xlsx detected chrome as available html engine
+2023-02-09T18:51:24.112Z - info: Using extension pptx@3.4.0
+2023-02-09T18:51:24.116Z - info: Using extension scheduling@3.0.3
+2023-02-09T18:51:24.143Z - info: Using extension scripts@3.4.0
+2023-02-09T18:51:24.144Z - info: Using extension static-pdf@3.0.1
+2023-02-09T18:51:24.145Z - info: Using extension studio@3.9.0
+2023-02-09T18:51:24.220Z - info: Using extension xlsx@3.4.0
+2023-02-09T18:51:24.245Z - info: Using extension public-templates@3.0.0
+2023-02-09T18:51:24.247Z - info: Using extension sample-template@3.2.1
+2023-02-09T18:51:24.249Z - info: Using extension studio-theme-dark@3.0.1
+2023-02-09T18:51:24.251Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-02-09T18:51:24.251Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-02-09T18:51:24.252Z - info: Using fs provider for template store.
+2023-02-09T18:51:24.258Z - info: fs store is persisting using fs for C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\data
+2023-02-09T18:51:24.263Z - info: fs store is loading data
+2023-02-09T18:51:24.287Z - info: fs store is initialized successfully
+2023-02-09T18:51:24.299Z - info: Creating default express app.
+2023-02-09T18:51:24.319Z - info: jsreport server successfully started on http port: 5488
+2023-02-09T18:51:24.324Z - info: Verifying license key free
+2023-02-09T18:51:24.325Z - info: Using free license
+2023-02-09T18:51:24.329Z - info: Initializing worker threads
+2023-02-09T18:51:24.571Z - info: 2 worker threads initialized in 242ms
+2023-02-09T18:51:24.572Z - info: Starting temp files cleanup with 180000ms threshold
+2023-02-09T18:51:24.573Z - info: reporter initialized
+2023-02-09T18:51:37.279Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=iyy6c53hf9skw48, id=iyy6c53hf9skw48
+2023-02-09T18:51:37.319Z - info: Starting rendering request 1 rootId=iyy6c53hf9skw48, id=iyy6c53hf9skw48, fromEmitProfile=true
+2023-02-09T18:51:37.320Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=iyy6c53hf9skw48, id=iyy6c53hf9skw48, fromEmitProfile=true
+2023-02-09T18:51:42.502Z - info: Rendering request 1 finished in 5227 ms rootId=iyy6c53hf9skw48, id=iyy6c53hf9skw48, fromEmitProfile=true
+2023-02-09T18:53:15.172Z - info: Render request 2 queued for execution and waiting for available worker fromEmitProfile=true, rootId=pegifme5wma99ww, id=pegifme5wma99ww
+2023-02-09T18:53:15.226Z - info: Starting rendering request 2 rootId=pegifme5wma99ww, id=pegifme5wma99ww, fromEmitProfile=true
+2023-02-09T18:53:15.227Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pegifme5wma99ww, id=pegifme5wma99ww, fromEmitProfile=true
+2023-02-09T18:53:15.683Z - info: Rendering request 2 finished in 513 ms rootId=pegifme5wma99ww, id=pegifme5wma99ww, fromEmitProfile=true
