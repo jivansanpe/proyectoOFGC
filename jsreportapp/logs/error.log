@@ -12,3 +12,78 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async ListenerCollection.fire (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
     at async Object.insert (C:\Users\josei\Desktop\aydio\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:141:5)
+2023-02-09T19:28:33.750Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs
+2023-02-13T15:37:37.429Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=0yupn7le8947x46, id=0yupn7le8947x46
+2023-02-13T15:37:37.432Z - error: Error during processing request at http://localhost:5488/templates/imWjwuuN8d, details: Error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-13T15:38:19.885Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t
+2023-02-13T15:38:19.888Z - error: Error during processing request at http://localhost:5488/templates/imWjwuuN8d, details: Error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-13T15:39:03.879Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws
+2023-02-13T15:39:24.712Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c

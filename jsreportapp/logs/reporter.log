@@ -281,3 +281,382 @@ Error: require of "axios" module has been blocked. To be able to require custom 
 2023-02-09T19:24:58.542Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
 2023-02-09T19:24:58.545Z - info: Searching for available extensions in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\
 2023-02-09T19:24:58.549Z - info: Extensions location cache doesn't contain entry yet, crawling
+2023-02-09T19:24:59.443Z - info: Found 35 extension(s)
+2023-02-09T19:24:59.513Z - info: Using extension base@3.0.1
+2023-02-09T19:24:59.518Z - info: Using extension child-templates@3.1.0
+2023-02-09T19:24:59.522Z - info: Using extension cli@3.2.3
+2023-02-09T19:24:59.523Z - info: Using extension components@3.3.0
+2023-02-09T19:24:59.525Z - info: Using extension data@3.1.0
+2023-02-09T19:24:59.527Z - info: Using extension express@3.6.0
+2023-02-09T19:24:59.803Z - info: Using extension freeze@3.0.1
+2023-02-09T19:24:59.805Z - info: Using extension fs-store@3.2.4
+2023-02-09T19:24:59.898Z - info: Using extension handlebars@3.2.1
+2023-02-09T19:24:59.900Z - info: Using extension import-export@3.2.0
+2023-02-09T19:24:59.912Z - info: Using extension jsrender@3.0.0
+2023-02-09T19:24:59.913Z - info: Using extension licensing@3.0.2
+2023-02-09T19:24:59.936Z - info: Using extension localization@3.2.1
+2023-02-09T19:24:59.937Z - info: Using extension npm@3.1.2
+2023-02-09T19:24:59.941Z - info: Using extension pdf-utils@3.7.0
+2023-02-09T19:24:59.952Z - info: Using extension reports@3.1.1
+2023-02-09T19:24:59.960Z - info: Using extension tags@3.1.1
+2023-02-09T19:24:59.963Z - info: Using extension text@3.0.0
+2023-02-09T19:24:59.964Z - info: Using extension version-control@3.1.2
+2023-02-09T19:24:59.976Z - info: Using extension assets@3.6.0
+2023-02-09T19:24:59.986Z - info: Using extension authorization@3.3.0
+2023-02-09T19:24:59.990Z - info: Using extension browser-client@3.1.1
+2023-02-09T19:24:59.992Z - info: Using extension chrome-pdf@3.3.0
+2023-02-09T19:24:59.996Z - info: Using extension docx@3.6.0
+2023-02-09T19:24:59.999Z - info: Using extension html-to-xlsx@3.3.0
+2023-02-09T19:25:00.085Z - info: html-to-xlsx detected chrome as available html engine
+2023-02-09T19:25:00.085Z - info: Using extension pptx@3.4.0
+2023-02-09T19:25:00.089Z - info: Using extension scheduling@3.0.3
+2023-02-09T19:25:00.117Z - info: Using extension scripts@3.4.0
+2023-02-09T19:25:00.118Z - info: Using extension static-pdf@3.0.1
+2023-02-09T19:25:00.119Z - info: Using extension studio@3.9.0
+2023-02-09T19:25:00.192Z - info: Using extension xlsx@3.4.0
+2023-02-09T19:25:00.217Z - info: Using extension public-templates@3.0.0
+2023-02-09T19:25:00.219Z - info: Using extension sample-template@3.2.1
+2023-02-09T19:25:00.221Z - info: Using extension studio-theme-dark@3.0.1
+2023-02-09T19:25:00.223Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-02-09T19:25:00.223Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-02-09T19:25:00.224Z - info: Using fs provider for template store.
+2023-02-09T19:25:00.229Z - info: fs store is persisting using fs for C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\data
+2023-02-09T19:25:00.234Z - info: fs store is loading data
+2023-02-09T19:25:00.256Z - info: fs store is initialized successfully
+2023-02-09T19:25:00.269Z - info: Creating default express app.
+2023-02-09T19:25:00.288Z - info: jsreport server successfully started on http port: 5488
+2023-02-09T19:25:00.292Z - info: Verifying license key free
+2023-02-09T19:25:00.294Z - info: Using free license
+2023-02-09T19:25:00.298Z - info: Initializing worker threads
+2023-02-09T19:25:00.534Z - info: 2 worker threads initialized in 236ms
+2023-02-09T19:25:00.535Z - info: Starting temp files cleanup with 180000ms threshold
+2023-02-09T19:25:00.536Z - info: reporter initialized
+2023-02-09T19:28:33.189Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs
+2023-02-09T19:28:33.222Z - info: Starting rendering request 1 rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs, fromEmitProfile=true
+2023-02-09T19:28:33.222Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs, fromEmitProfile=true
+2023-02-09T19:28:33.746Z - warn: Error when processing render request 1
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs, fromEmitProfile=true
+2023-02-09T19:28:33.747Z - warn: Rendering request 1 finished with error in 560 ms rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs, fromEmitProfile=true
+2023-02-09T19:28:33.750Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=35c1pr5x1rcr6hs, id=35c1pr5x1rcr6hs
+2023-02-09T19:30:32.805Z - info: Render request 2 queued for execution and waiting for available worker fromEmitProfile=true, rootId=fxjen2p9i9q5ijl, id=fxjen2p9i9q5ijl
+2023-02-09T19:30:32.899Z - info: Starting rendering request 2 rootId=fxjen2p9i9q5ijl, id=fxjen2p9i9q5ijl, fromEmitProfile=true
+2023-02-09T19:30:32.908Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fxjen2p9i9q5ijl, id=fxjen2p9i9q5ijl, fromEmitProfile=true
+2023-02-09T19:30:37.441Z - info: Rendering request 2 finished in 4635 ms rootId=fxjen2p9i9q5ijl, id=fxjen2p9i9q5ijl, fromEmitProfile=true
+2023-02-09T20:04:33.878Z - info: Render request 3 queued for execution and waiting for available worker fromEmitProfile=true, rootId=0kodo3exznklf0v, id=0kodo3exznklf0v
+2023-02-09T20:04:33.892Z - info: Starting rendering request 3 rootId=0kodo3exznklf0v, id=0kodo3exznklf0v, fromEmitProfile=true
+2023-02-09T20:04:33.893Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0kodo3exznklf0v, id=0kodo3exznklf0v, fromEmitProfile=true
+2023-02-09T20:04:34.409Z - info: Rendering request 3 finished in 529 ms rootId=0kodo3exznklf0v, id=0kodo3exznklf0v, fromEmitProfile=true
+2023-02-09T20:19:27.421Z - info: Render request 4 queued for execution and waiting for available worker fromEmitProfile=true, rootId=br5u48lm3te6bx5, id=br5u48lm3te6bx5
+2023-02-09T20:19:27.441Z - info: Starting rendering request 4 rootId=br5u48lm3te6bx5, id=br5u48lm3te6bx5, fromEmitProfile=true
+2023-02-09T20:19:27.442Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=br5u48lm3te6bx5, id=br5u48lm3te6bx5, fromEmitProfile=true
+2023-02-09T20:19:27.952Z - info: Rendering request 4 finished in 528 ms rootId=br5u48lm3te6bx5, id=br5u48lm3te6bx5, fromEmitProfile=true
+2023-02-09T20:20:01.956Z - info: Render request 5 queued for execution and waiting for available worker fromEmitProfile=true, rootId=fjz7zvpfk449lve, id=fjz7zvpfk449lve
+2023-02-09T20:20:01.972Z - info: Starting rendering request 5 rootId=fjz7zvpfk449lve, id=fjz7zvpfk449lve, fromEmitProfile=true
+2023-02-09T20:20:01.972Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fjz7zvpfk449lve, id=fjz7zvpfk449lve, fromEmitProfile=true
+2023-02-09T20:20:02.222Z - warn: Error when processing render request 5
+(because) error when evaluating engine handlebars for template /samples/prueba
+(because) missing helper: "toJSON"
+
+(sandbox.js line 13:18)
+Error: Missing helper: "toJSON"
+    at Object.<anonymous> (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:29:106)
+    at main (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:216:40)
+    at sandbox.js:13:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/prueba
+(because) missing helper: "toJSON"
+    at module.exports (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:286:33)
+    at async engine.engine (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=fjz7zvpfk449lve, id=fjz7zvpfk449lve, fromEmitProfile=true
+2023-02-09T20:20:02.223Z - warn: Rendering request 5 finished with error in 266 ms rootId=fjz7zvpfk449lve, id=fjz7zvpfk449lve, fromEmitProfile=true
+2023-02-09T20:21:10.239Z - info: Render request 6 queued for execution and waiting for available worker fromEmitProfile=true, rootId=h31ybj438g4unjz, id=h31ybj438g4unjz
+2023-02-09T20:21:10.254Z - info: Starting rendering request 6 rootId=h31ybj438g4unjz, id=h31ybj438g4unjz, fromEmitProfile=true
+2023-02-09T20:21:10.254Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=h31ybj438g4unjz, id=h31ybj438g4unjz, fromEmitProfile=true
+2023-02-09T20:21:10.761Z - info: Rendering request 6 finished in 520 ms rootId=h31ybj438g4unjz, id=h31ybj438g4unjz, fromEmitProfile=true
+2023-02-09T20:25:02.699Z - info: Render request 7 queued for execution and waiting for available worker fromEmitProfile=true, rootId=z6pl0f818hrf3ew, id=z6pl0f818hrf3ew
+2023-02-09T20:25:02.715Z - info: Starting rendering request 7 rootId=z6pl0f818hrf3ew, id=z6pl0f818hrf3ew, fromEmitProfile=true
+2023-02-09T20:25:02.715Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=z6pl0f818hrf3ew, id=z6pl0f818hrf3ew, fromEmitProfile=true
+2023-02-09T20:25:03.252Z - info: Rendering request 7 finished in 553 ms rootId=z6pl0f818hrf3ew, id=z6pl0f818hrf3ew, fromEmitProfile=true
+2023-02-09T20:29:28.531Z - info: Render request 8 queued for execution and waiting for available worker fromEmitProfile=true, rootId=lpe206aj0opixd3, id=lpe206aj0opixd3
+2023-02-09T20:29:28.576Z - info: Starting rendering request 8 rootId=lpe206aj0opixd3, id=lpe206aj0opixd3, fromEmitProfile=true
+2023-02-09T20:29:28.577Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lpe206aj0opixd3, id=lpe206aj0opixd3, fromEmitProfile=true
+2023-02-09T20:29:29.122Z - info: Rendering request 8 finished in 589 ms rootId=lpe206aj0opixd3, id=lpe206aj0opixd3, fromEmitProfile=true
+2023-02-09T20:29:30.733Z - info: Render request 9 queued for execution and waiting for available worker fromEmitProfile=true, rootId=598ah0e603j8urq, id=598ah0e603j8urq
+2023-02-09T20:29:30.746Z - info: Starting rendering request 9 rootId=598ah0e603j8urq, id=598ah0e603j8urq, fromEmitProfile=true
+2023-02-09T20:29:30.747Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=598ah0e603j8urq, id=598ah0e603j8urq, fromEmitProfile=true
+2023-02-09T20:29:31.246Z - info: Rendering request 9 finished in 513 ms rootId=598ah0e603j8urq, id=598ah0e603j8urq, fromEmitProfile=true
+2023-02-09T20:29:36.766Z - info: Render request 10 queued for execution and waiting for available worker fromEmitProfile=true, rootId=6w96iro4emlplin, id=6w96iro4emlplin
+2023-02-09T20:29:36.783Z - info: Starting rendering request 10 rootId=6w96iro4emlplin, id=6w96iro4emlplin, fromEmitProfile=true
+2023-02-09T20:29:36.783Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6w96iro4emlplin, id=6w96iro4emlplin, fromEmitProfile=true
+2023-02-09T20:29:37.357Z - info: Rendering request 10 finished in 589 ms rootId=6w96iro4emlplin, id=6w96iro4emlplin, fromEmitProfile=true
+2023-02-09T20:31:00.997Z - info: Render request 11 queued for execution and waiting for available worker fromEmitProfile=true, rootId=mlpqzawtqpypsxm, id=mlpqzawtqpypsxm
+2023-02-09T20:31:01.014Z - info: Starting rendering request 11 rootId=mlpqzawtqpypsxm, id=mlpqzawtqpypsxm, fromEmitProfile=true
+2023-02-09T20:31:01.014Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mlpqzawtqpypsxm, id=mlpqzawtqpypsxm, fromEmitProfile=true
+2023-02-09T20:31:01.502Z - info: Rendering request 11 finished in 504 ms rootId=mlpqzawtqpypsxm, id=mlpqzawtqpypsxm, fromEmitProfile=true
+2023-02-09T20:31:07.108Z - info: Render request 12 queued for execution and waiting for available worker fromEmitProfile=true, rootId=dgkt0vzokxrg1ms, id=dgkt0vzokxrg1ms
+2023-02-09T20:31:07.129Z - info: Starting rendering request 12 rootId=dgkt0vzokxrg1ms, id=dgkt0vzokxrg1ms, fromEmitProfile=true
+2023-02-09T20:31:07.130Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=dgkt0vzokxrg1ms, id=dgkt0vzokxrg1ms, fromEmitProfile=true
+2023-02-09T20:31:07.730Z - info: Rendering request 12 finished in 620 ms rootId=dgkt0vzokxrg1ms, id=dgkt0vzokxrg1ms, fromEmitProfile=true
+2023-02-13T15:37:14.873Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
+2023-02-13T15:37:14.876Z - info: Searching for available extensions in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\
+2023-02-13T15:37:14.882Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\
+2023-02-13T15:37:14.893Z - info: Found 35 extension(s)
+2023-02-13T15:37:14.978Z - info: Using extension base@3.0.1
+2023-02-13T15:37:14.983Z - info: Using extension child-templates@3.1.0
+2023-02-13T15:37:14.988Z - info: Using extension cli@3.2.3
+2023-02-13T15:37:14.990Z - info: Using extension components@3.3.0
+2023-02-13T15:37:14.992Z - info: Using extension data@3.1.0
+2023-02-13T15:37:14.994Z - info: Using extension express@3.6.0
+2023-02-13T15:37:15.401Z - info: Using extension freeze@3.0.1
+2023-02-13T15:37:15.404Z - info: Using extension fs-store@3.2.4
+2023-02-13T15:37:15.537Z - info: Using extension handlebars@3.2.1
+2023-02-13T15:37:15.539Z - info: Using extension import-export@3.2.0
+2023-02-13T15:37:15.555Z - info: Using extension jsrender@3.0.0
+2023-02-13T15:37:15.556Z - info: Using extension licensing@3.0.2
+2023-02-13T15:37:15.587Z - info: Using extension localization@3.2.1
+2023-02-13T15:37:15.588Z - info: Using extension npm@3.1.2
+2023-02-13T15:37:15.608Z - info: Using extension pdf-utils@3.7.0
+2023-02-13T15:37:15.612Z - info: Using extension reports@3.1.1
+2023-02-13T15:37:15.615Z - info: Using extension tags@3.1.1
+2023-02-13T15:37:15.618Z - info: Using extension text@3.0.0
+2023-02-13T15:37:15.619Z - info: Using extension version-control@3.1.2
+2023-02-13T15:37:15.636Z - info: Using extension assets@3.6.0
+2023-02-13T15:37:15.651Z - info: Using extension authorization@3.3.0
+2023-02-13T15:37:15.656Z - info: Using extension browser-client@3.1.1
+2023-02-13T15:37:15.660Z - info: Using extension chrome-pdf@3.3.0
+2023-02-13T15:37:15.664Z - info: Using extension docx@3.6.0
+2023-02-13T15:37:15.668Z - info: Using extension html-to-xlsx@3.3.0
+2023-02-13T15:37:15.797Z - info: html-to-xlsx detected chrome as available html engine
+2023-02-13T15:37:15.798Z - info: Using extension pptx@3.4.0
+2023-02-13T15:37:15.801Z - info: Using extension scheduling@3.0.3
+2023-02-13T15:37:15.839Z - info: Using extension scripts@3.4.0
+2023-02-13T15:37:15.841Z - info: Using extension static-pdf@3.0.1
+2023-02-13T15:37:15.842Z - info: Using extension studio@3.9.0
+2023-02-13T15:37:15.938Z - info: Using extension xlsx@3.4.0
+2023-02-13T15:37:15.976Z - info: Using extension public-templates@3.0.0
+2023-02-13T15:37:15.978Z - info: Using extension sample-template@3.2.1
+2023-02-13T15:37:15.981Z - info: Using extension studio-theme-dark@3.0.1
+2023-02-13T15:37:15.983Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-02-13T15:37:15.983Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-02-13T15:37:15.984Z - info: Using fs provider for template store.
+2023-02-13T15:37:15.989Z - info: fs store is persisting using fs for C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\data
+2023-02-13T15:37:15.995Z - info: fs store is loading data
+2023-02-13T15:37:16.018Z - info: fs store is initialized successfully
+2023-02-13T15:37:16.031Z - info: Creating default express app.
+2023-02-13T15:37:16.065Z - info: jsreport server successfully started on http port: 5488
+2023-02-13T15:37:16.067Z - info: Verifying license key free
+2023-02-13T15:37:16.071Z - info: Using free license
+2023-02-13T15:37:16.075Z - info: Initializing worker threads
+2023-02-13T15:37:16.361Z - info: 2 worker threads initialized in 286ms
+2023-02-13T15:37:16.361Z - info: Starting temp files cleanup with 180000ms threshold
+2023-02-13T15:37:16.363Z - info: reporter initialized
+2023-02-13T15:37:36.804Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=0yupn7le8947x46, id=0yupn7le8947x46
+2023-02-13T15:37:36.842Z - info: Starting rendering request 1 rootId=0yupn7le8947x46, id=0yupn7le8947x46, fromEmitProfile=true
+2023-02-13T15:37:36.843Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=0yupn7le8947x46, id=0yupn7le8947x46, fromEmitProfile=true
+2023-02-13T15:37:37.424Z - warn: Error when processing render request 1
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=0yupn7le8947x46, id=0yupn7le8947x46, fromEmitProfile=true
+2023-02-13T15:37:37.425Z - warn: Rendering request 1 finished with error in 622 ms rootId=0yupn7le8947x46, id=0yupn7le8947x46, fromEmitProfile=true
+2023-02-13T15:37:37.429Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=0yupn7le8947x46, id=0yupn7le8947x46
+2023-02-13T15:37:37.432Z - error: Error during processing request at http://localhost:5488/templates/imWjwuuN8d, details: Error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-13T15:38:19.667Z - info: Render request 2 queued for execution and waiting for available worker fromEmitProfile=true, rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t
+2023-02-13T15:38:19.685Z - info: Starting rendering request 2 rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t, fromEmitProfile=true
+2023-02-13T15:38:19.686Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t, fromEmitProfile=true
+2023-02-13T15:38:19.881Z - warn: Error when processing render request 2
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t, fromEmitProfile=true
+2023-02-13T15:38:19.882Z - warn: Rendering request 2 finished with error in 215 ms rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t, fromEmitProfile=true
+2023-02-13T15:38:19.885Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=l6nq4n5i0k3n66t, id=l6nq4n5i0k3n66t
+2023-02-13T15:38:19.888Z - error: Error during processing request at http://localhost:5488/templates/imWjwuuN8d, details: Error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-13T15:39:03.487Z - info: Render request 3 queued for execution and waiting for available worker fromEmitProfile=true, rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws
+2023-02-13T15:39:03.567Z - info: Starting rendering request 3 rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws, fromEmitProfile=true
+2023-02-13T15:39:03.575Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws, fromEmitProfile=true
+2023-02-13T15:39:03.873Z - warn: Error when processing render request 3
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws, fromEmitProfile=true
+2023-02-13T15:39:03.874Z - warn: Rendering request 3 finished with error in 387 ms rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws, fromEmitProfile=true
+2023-02-13T15:39:03.879Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=q4vk8attxpfc4ws, id=q4vk8attxpfc4ws
+2023-02-13T15:39:17.685Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
+2023-02-13T15:39:17.688Z - info: Searching for available extensions in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\
+2023-02-13T15:39:17.694Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\
+2023-02-13T15:39:17.703Z - info: Found 35 extension(s)
+2023-02-13T15:39:17.781Z - info: Using extension base@3.0.1
+2023-02-13T15:39:17.786Z - info: Using extension child-templates@3.1.0
+2023-02-13T15:39:17.791Z - info: Using extension cli@3.2.3
+2023-02-13T15:39:17.793Z - info: Using extension components@3.3.0
+2023-02-13T15:39:17.796Z - info: Using extension data@3.1.0
+2023-02-13T15:39:17.798Z - info: Using extension express@3.6.0
+2023-02-13T15:39:18.101Z - info: Using extension freeze@3.0.1
+2023-02-13T15:39:18.103Z - info: Using extension fs-store@3.2.4
+2023-02-13T15:39:18.202Z - info: Using extension handlebars@3.2.1
+2023-02-13T15:39:18.204Z - info: Using extension import-export@3.2.0
+2023-02-13T15:39:18.217Z - info: Using extension jsrender@3.0.0
+2023-02-13T15:39:18.218Z - info: Using extension licensing@3.0.2
+2023-02-13T15:39:18.242Z - info: Using extension localization@3.2.1
+2023-02-13T15:39:18.244Z - info: Using extension npm@3.1.2
+2023-02-13T15:39:18.263Z - info: Using extension pdf-utils@3.7.0
+2023-02-13T15:39:18.267Z - info: Using extension reports@3.1.1
+2023-02-13T15:39:18.270Z - info: Using extension tags@3.1.1
+2023-02-13T15:39:18.273Z - info: Using extension text@3.0.0
+2023-02-13T15:39:18.275Z - info: Using extension version-control@3.1.2
+2023-02-13T15:39:18.289Z - info: Using extension assets@3.6.0
+2023-02-13T15:39:18.301Z - info: Using extension authorization@3.3.0
+2023-02-13T15:39:18.306Z - info: Using extension browser-client@3.1.1
+2023-02-13T15:39:18.309Z - info: Using extension chrome-pdf@3.3.0
+2023-02-13T15:39:18.312Z - info: Using extension docx@3.6.0
+2023-02-13T15:39:18.317Z - info: Using extension html-to-xlsx@3.3.0
+2023-02-13T15:39:18.412Z - info: html-to-xlsx detected chrome as available html engine
+2023-02-13T15:39:18.413Z - info: Using extension pptx@3.4.0
+2023-02-13T15:39:18.416Z - info: Using extension scheduling@3.0.3
+2023-02-13T15:39:18.453Z - info: Using extension scripts@3.4.0
+2023-02-13T15:39:18.456Z - info: Using extension static-pdf@3.0.1
+2023-02-13T15:39:18.460Z - info: Using extension studio@3.9.0
+2023-02-13T15:39:18.546Z - info: Using extension xlsx@3.4.0
+2023-02-13T15:39:18.573Z - info: Using extension public-templates@3.0.0
+2023-02-13T15:39:18.577Z - info: Using extension sample-template@3.2.1
+2023-02-13T15:39:18.579Z - info: Using extension studio-theme-dark@3.0.1
+2023-02-13T15:39:18.581Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-02-13T15:39:18.581Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-02-13T15:39:18.582Z - info: Using fs provider for template store.
+2023-02-13T15:39:18.587Z - info: fs store is persisting using fs for C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\data
+2023-02-13T15:39:18.594Z - info: fs store is loading data
+2023-02-13T15:39:18.619Z - info: fs store is initialized successfully
+2023-02-13T15:39:18.632Z - info: Creating default express app.
+2023-02-13T15:39:18.653Z - info: jsreport server successfully started on http port: 5488
+2023-02-13T15:39:18.658Z - info: Verifying license key free
+2023-02-13T15:39:18.659Z - info: Using free license
+2023-02-13T15:39:18.670Z - info: Initializing worker threads
+2023-02-13T15:39:18.945Z - info: 2 worker threads initialized in 275ms
+2023-02-13T15:39:18.946Z - info: Starting temp files cleanup with 180000ms threshold
+2023-02-13T15:39:18.947Z - info: reporter initialized
+2023-02-13T15:39:24.170Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c
+2023-02-13T15:39:24.199Z - info: Starting rendering request 1 rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c, fromEmitProfile=true
+2023-02-13T15:39:24.200Z - info: Rendering template { name: prueba, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c, fromEmitProfile=true
+2023-02-13T15:39:24.705Z - warn: Error when processing render request 1
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c, fromEmitProfile=true
+2023-02-13T15:39:24.707Z - warn: Rendering request 1 finished with error in 538 ms rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c, fromEmitProfile=true
+2023-02-13T15:39:24.712Z - error: Report render failed
+(because) error when evaluating custom script /samples/script
+Request failed with status code 500
+Error: Request failed with status code 500
+    at createError (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\node_modules\axios\lib\adapters\http.js:293:11)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:537:15)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) rootId=b06ml91kwab5r5c, id=b06ml91kwab5r5c
+2023-02-13T15:42:44.937Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.16.0)
+2023-02-13T15:42:44.940Z - info: Searching for available extensions in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\
+2023-02-13T15:42:44.953Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\josei\Desktop\mimadre\proyectoOFGC\jsreportapp\

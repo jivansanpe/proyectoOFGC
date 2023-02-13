@@ -3,29 +3,112 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+      }
+      table {
+        width: 80%;
+        margin: 50px auto;
+      }
+      th {
+        text-align: left;
+        background-color: #f2f2f2;
+        padding: 8px;
+      }
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
   </head>
   <body>
-     <h1>Authors</h1>
-        <!-- add hiden information to the page which is resolved in OrdersHeader template
-             during the pdf merge. See the docs about pdf utils extension for more details. -->
-        <canvas id="1" style="margin-bottom:30px"></canvas>
-        <table class='table striped'>
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Lugar</th>
-                    <th>Fecha</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{#each authors.[0]}}
-                <tr>
-                    <td>{{nombre}}</td>
-                    <td>{{lugar}}</td>
-                    <td>{{fecha}}</td>
-                </tr>
-                {{/each}}
-            </tbody>
-        </table>
+     <h1>Eventos</h1>
+     
+     <canvas id="1" style="margin-bottom:30px"></canvas>
+     
+     <table class='table striped'>
+         <thead>
+             <tr>
+                 <th>Nombre</th>
+                 <th>Lugar</th>
+                 <th>Fecha</th>
+             </tr>
+         </thead>
+         <tbody>
+             {{#each authors.[0]}}
+             <tr>
+                 <td>{{nombre}}</td>
+                 <td>{{lugar}}</td>
+                 <td>{{fecha}}</td>
+             </tr>
+             {{/each}}
+         </tbody>
+     </table>
+
+<script>
+    var ctx = document.getElementById('1').getContext('2d');
+
+    // Crear un objeto que mantenga un registro de la frecuencia de las fechas
+    var frequency = {};
+    {{#each authors.[0]}}
+    if (frequency["{{fecha}}"] === undefined) {
+        frequency["{{fecha}}"] = 1;
+    } else {
+        frequency["{{fecha}}"]++;
+    }
+    {{/each}}
+
+    // Crear un array de fechas y un array de frecuencias
+    var labels = [];
+    var data = [];
+    for (var date in frequency) {
+        labels.push(date);
+        data.push(frequency[date]);
+    }
+
+    var chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Número de eventos',
+                data: data,
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        min: 0,
+                        stepSize: 1
+                    }
+                }]
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            barPercentage: 0.5,
+            barThickness: 6,
+            maxBarThickness: 8,
+            minBarLength: 2,
+        }
+    });
+</script>
+
   </body>
 </html>
+
+
